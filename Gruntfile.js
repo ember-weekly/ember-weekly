@@ -236,7 +236,8 @@ module.exports = function (grunt) {
                     dest: '<%= yeoman.dist %>',
                     src: [
                         '*.{ico,txt}',
-                        '.htaccess'
+                        '.htaccess',
+                        'CNAME'
                     ]
                 }]
             }
@@ -279,7 +280,7 @@ module.exports = function (grunt) {
         'coffee',
         'compass:dist',
         'useminPrepare',
-        'requirejs',
+        // 'requirejs',
         'imagemin',
         'htmlmin',
         'concat',
