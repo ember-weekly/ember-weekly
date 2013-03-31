@@ -1,0 +1,21 @@
+// Make sure the charset is set appropriately
+@charset "UTF-8";
+
+// This includes all of the foundation global elements that are needed to work with any of the other files.
+@import "../components/foundation/scss/foundation/foundation-global";
+
+// Foundation Components
+@import
+  "../components/foundation/scss/foundation/components/global",
+  "../components/foundation/scss/foundation/components/grid",
+  "../components/foundation/scss/foundation/components/visibility",
+  "../components/foundation/scss/foundation/components/block-grid",
+  "../components/foundation/scss/foundation/components/type",
+  "../components/foundation/scss/foundation/components/buttons",
+  "../components/foundation/scss/foundation/components/forms",
+  
+  "../components/foundation/scss/foundation/components/section",
+ 
+  "../components/foundation/scss/foundation/components/clearing",
+  
+  "../components/foundation/scss/foundation/components/inline-lists";
