@@ -3,7 +3,7 @@ $primary-color: #bf351c;
 $input-font-size: emCalc(18px);
 $shiny-edge-size: 0;
 
-@import url(http://fonts.googleapis.com/css?family=Anton|Oswald:300,400|Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Oswald:300,400|Open+Sans);
 
 @import '../components/foundation/scss/normalize.scss',
 		'custom-foundation.scss';
@@ -13,6 +13,7 @@ body{
 	// font-family: "OpenSans", "Helvetica Neue", "Helvetica", Arial, Verdana, sans-serif;
 	font-family:  "Open Sans", "Helvetica Neue", "Helvetica", Arial, Verdana, sans-serif;
 	background-color: #fefefe;
+	color: #454545;
 }
 
 h1, h2{
@@ -22,6 +23,7 @@ h1, h2{
 
 h3, h4, h5, h6{
 	font-family: "Open Sans", "Helvetica Neue", "Helvetica", Arial, Verdana, sans-serif;
+	color: #454545;
 }
 
 .alt-box{
@@ -39,7 +41,17 @@ header{
 
 	h1, h2, h3, h4, h5, h6{
 		color: #fafafa;
-		line-height: 2em;
+		line-height: 1.8em;
+	}
+}
+
+@media only screen and (min-width: 768px) { 
+	header{
+		padding: 1.2em 0 0.9em;
+		margin-bottom: 1.8em;
+	}
+	.strapline h4{
+		margin-bottom: 1.4em;
 	}
 }
 
