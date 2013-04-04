@@ -19,6 +19,7 @@
 -- submit link
 - tidy scss & html
 - RSS
+- 404
 
 ## newsletter
 - header image & background
