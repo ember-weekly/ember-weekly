@@ -2,7 +2,6 @@
 
 ## webiste
 - hookup archive link
-- not official note
 - check analytics
 - update colors
 - optimize fonts
@@ -19,10 +18,9 @@
 -- submit link
 - tidy scss & html
 - RSS
-- 404
 
 ## newsletter
 - header image & background
 - footer
 - top content blurb
-- device testsing
+- device testing
