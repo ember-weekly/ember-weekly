@@ -44,6 +44,10 @@ module.exports = function (grunt) {
                     '<%= yeoman.app %>/images/{,*/}*.{png,jpg,jpeg,webp}'
                 ],
                 tasks: ['livereload']
+            },
+            news: {
+                files: ['newsletter/**/*.{yaml,handlebars}'],
+                tasks: ['news']
             }
         },
         connect: {
@@ -295,4 +299,51 @@ module.exports = function (grunt) {
         'test',
         'build'
     ]);
+
+
+    grunt.registerTask('news', function () {
+        var Handlebars = require('handlebars');
+        var Showdown = require('showdown');
+        var markdownConverter = new Showdown.converter();
+
+        var templatePath = 'newsletter/template.handlebars';
+        var outputPath = 'newsletter/issues/';
+        var contentYaml = 'newsletter/content/ew-issue-2.yaml';
+        var content = {};
+        var template = '';
+
+        if (!contentYaml && !grunt.file.exists(contentYaml)) {
+            grunt.log.error('error - no yaml file at ' + contentYaml);
+            return;
+        }
+
+        content = grunt.file.readYAML(contentYaml);
+
+        grunt.log.write('yaml - ', content);
+
+        if (templatePath && grunt.file.exists(templatePath)){
+            template = grunt.file.read(templatePath);
+        }else{
+            grunt.log.error('error - no template at ' + templatePath);
+        }
+
+        if (!template){
+            grunt.log.error('no template found');
+            return;
+        }
+
+        content.content.forEach(function(section){
+            section.headlines.forEach(function(headline){
+                var desc = markdownConverter.makeHtml(headline.description);
+                //very naive way to remove paragragh tag added by showdown
+                desc = desc.substring(3, desc.length);
+                desc = desc.substring(0, desc.length - 4);
+                headline.descriptionHTML = new Handlebars.SafeString(desc);
+            });
+        });
+
+        var html = Handlebars.compile(template)(content);
+        grunt.file.write(outputPath + 'ew-issue-' + content.issue + '.html', html);
+
+    });
 };
