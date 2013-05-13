@@ -1,0 +1,72 @@
+issue: 7
+strapline: "Ember.js news & lots more..."
+content:
+    -
+        heading: "Articles"
+        headlines:
+            -
+                title: "Ember at Embedly Tutorial: Models and Ember Data"
+                description: "This fourth installment [[1](http://blog.embed.ly/post/46586649344/introduction-to-ember-development),[2](http://blog.embed.ly/post/47205604241/ember-at-embedly-templates-and-the-router),[3](http://blog.embed.ly/post/48039881005/ember-at-embedly-views-and-controllers)] focuses on models, backed by RESTful storage, using ember-data."
+                domain: blog.embed.ly
+                link: http://blog.embed.ly/post/50012690904/ember-at-embedly-tutorial-models-and-ember-data
+
+    -
+        heading: "Promoted Link"
+        headlines:
+            -
+                title: "Sponsor Ember Weekly"
+                description: "Help support Ember Weekly by sponsoring a future issue. Promote your Ember related product or service. Reply to this email for more info."
+                domain: emberweekly.com
+                link: mailto:info@emberweekly.com?Subject=Advertise%20in%20Ember%20Weekly&Body=What%20would%20you%20like%20to%20advertise%3F%0ANote.%20There%20is%20a%20fee%20associated%20with%20advertising
+
+    -
+        heading: "Watch/Listen"
+        headlines:
+            -
+                title: "Philly ETE - Building Ambitious Web Applications with Ember.js"
+                description: "Yehuda Katz gives a great summary of Ember development & the future of the web. He demos how easy it is to write a simple blog application. Recommended watch."
+                domain: chariotsolutions.com
+                link: http://emergingtech.chariotsolutions.com/2013/04/philly-ete-screencast-4-yehuda-katz-on-the-ember-js-application-framework/
+
+    -
+        heading: "Code"
+        headlines:
+            -
+                title: "ArrayPipeline"
+                description: "The Array mixins [discussed by Andy Leeper in his EmberNYC talk](https://www.youtube.com/watch?feature=player_detailpage&v=Ji0fdDAsol8#t=6060s) above. Allows piping plugins for advanced array maniplualtion."
+                domain: github.com
+                link: https://github.com/Mochaleaf/ArrayPipeline
+
+    -
+        heading: "Jobs"
+        headlines:
+            -
+                title: "Looking for an Ember Developer?"
+                description: "Deliver your job opening directly to developers with known interest in Ember.js development. Simply reply for more information about posting a job in Ember Weekly."
+                domain: emberweekly.com
+                link: mailto:info@emberweekly.com?Subject=Post%20a%20Job%20in%20Ember%20Weekly&Body=Title%3A%20e.g%20Senior%20Front-End%20Web%20Developer%0ABody%3A%20e.g.%20Want%20to%20work%20on%20large%20Ember.js%20projects%3F%20We%27re%20looking%20for%20a%20rockstar%20developer%20with%205%20years%20JavaScript%20experience%21%20%0Aurl%3A%20e.g.%20www.your-companies-website.com/careers%0A%0A%23%20weeks%3A%20How%20many%20weeks%20would%20you%20like%20the%20ad%20to%20be%20live%20for%3F%0ADate%3A%20When%20would%20you%20like%20the%20ad%20to%20go%20live%3F%0A%0ANotes%3A%20any%20other%20info%20you%27d%20like%20us%20to%20know...%3F%0ANote.%20There%20is%20a%20fee%20associated%20with%20advertising%20a%20job
+
+    -
+        heading: "Events"
+        headlines:
+            -
+                title: "Ember San Francisco Meetup"
+                description: "23rd May, 7:00pm @ Pivitol Labs. Ember.js contributor Ryan Toronto will present - Prototyping Ember Apps and APIs, as well as several lightning talk slots available"
+                domain: meetup.com
+                link: http://www.meetup.com/EmberJS-NYC/events/116001112/
+            -
+                title: "Hacking with Ember! - London Meetup"
+                description: "21st May, 7:00pm @ Live Nation Labs. Benjamin Rhodes will be showing his OSS app called Flowfeeds & talking about the audio/video player controls, sortable list view, and infinite scroll."
+                domain: meetup.com
+                link: http://www.meetup.com/Ember-SC/events/116355482/
+
+
+    -
+        heading: "Finally..."
+        headlines:
+            -
+                title: "Ember Builds"
+                description: "As mentioned in the RC3 announcement, each successful CI run now publishes its build results, making it much simpler to reference the latest ember build."
+                domain: builds.emberjs.com
+                link: http://builds.emberjs.com/
+

@@ -16,3 +16,12 @@
 
 ## newsletter
 - Friend forward/unsubscripe issue
+
+
+## newsletter grunt generator
+- accept a yaml file input to parse
+- generate whole HTML body
+-- hr's
+-- boxes
+-- intro & messages
+- create custom html template to generate each time
