@@ -308,7 +308,7 @@ module.exports = function (grunt) {
 
         var templatePath = 'newsletter/template.handlebars';
         var outputPath = 'newsletter/issues/';
-        var contentYaml = 'newsletter/content/ew-issue-6-[2013-05-12].yaml';
+        var contentYaml = 'newsletter/content/ew-issue-8-[2013-05-26].yaml';
         var content = {};
         var template = '';
 
