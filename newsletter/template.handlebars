@@ -1,12 +1,8 @@
-
+<!--
 <p class="strapline">
     {{strapline}}
 </p>
-
-
-<!-------------------------------------------------------->
-<!------------------------   News   ---------------------->
-<!-------------------------------------------------------->
+-->
 
 
 {{#each content}}
@@ -14,20 +10,20 @@
     <h1 style="display: block;font-family: 'Helvetica Neue', helvetica, arial, sans-serif;font-size: 16px;font-style: normal;font-weight: bold;line-height: 200%;letter-spacing: normal;margin: 0;text-align: left;color: #888888 !important;">
         {{heading}}
     </h1>
-    <p></p>
 {{#if description}}
+    <p></p>
     <p style="font-family: 'Helvetica Neue', helvetica, arial, sans-serif;">
         {{description}}
     </p>
 {{/if}}
 {{#each headlines}}
-    <div class="headline">
+    <div class="headline" style="padding:8px 0;">
         <h2 style="display: block;font-family: 'Helvetica Neue', helvetica, arial, sans-serif;font-size: 18px;font-style: normal;font-weight: bold;line-height: 1.5em;letter-spacing: normal;margin: 0;text-align: left;color: #bf351c !important;">
             <a class="headline-link" style="color: #bf351c;font-weight: normal;text-decoration: none;word-wrap: break-word !important;" href="{{link}}" target="_blank" >
                 {{title}}
             </a>
         </h2>
-        <p style="font-family: 'Helvetica Neue', helvetica, arial, sans-serif;">
+        <p style="font-family: 'Helvetica Neue', helvetica, arial, sans-serif;font-size:16px">
             {{descriptionHTML}}
             <a class="headline-source" style="font-size: 0.8em;color: #808080;text-decoration: none;font-weight: normal;word-wrap: break-word !important;" target="_blank" href="{{link}}"> ({{domain}})
             </a>
@@ -37,9 +33,8 @@
 </div>
 
 
-<!-------------------------------------------------------->
-<!------------------------    {{@index}}    ----------------------->
-<!-------------------------------------------------------->
+
+<hr style="border:0px;border-top:1px solid #bf351c; margin: 25px 0 40px;" />
 
 
 {{/each}}
