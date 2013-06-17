@@ -308,7 +308,7 @@ module.exports = function (grunt) {
 
         var templatePath = 'newsletter/template.handlebars';
         var outputPath = 'newsletter/issues/';
-        var contentYaml = 'newsletter/content/ew-issue-8-[2013-05-26].yaml';
+        var contentYaml = 'newsletter/content/ew-issue-11-[2013-06-16].yaml';
         var content = {};
         var template = '';
 
@@ -343,7 +343,10 @@ module.exports = function (grunt) {
         });
 
         var html = Handlebars.compile(template)(content);
-        grunt.file.write(outputPath + 'ew-issue-' + content.issue + '.html', html);
+
+        var outputFileName = 'ew-issue-' + content.issue + '.html';
+        grunt.log.write('writing ' + outputFileName + '...\n');
+        grunt.file.write(outputPath + outputFileName, html);
 
     });
 };
