@@ -304,11 +304,12 @@ module.exports = function (grunt) {
     grunt.registerTask('news', function () {
         var Handlebars = require('handlebars');
         var Showdown = require('showdown');
+        var URL = require('url');
         var markdownConverter = new Showdown.converter();
 
         var templatePath = 'newsletter/template.handlebars';
         var outputPath = 'newsletter/issues/';
-        var contentYaml = 'newsletter/content/ew-issue-11-[2013-06-16].yaml';
+        var contentYaml = 'newsletter/content/ew-issue-12-[2013-06-23].yaml';
         var content = {};
         var template = '';
 
@@ -339,6 +340,9 @@ module.exports = function (grunt) {
                 desc = desc.substring(3, desc.length);
                 desc = desc.substring(0, desc.length - 4);
                 headline.descriptionHTML = new Handlebars.SafeString(desc);
+
+                headline.domain = URL.parse(headline.link).hostname.replace('www.', '');
+
             });
         });
 

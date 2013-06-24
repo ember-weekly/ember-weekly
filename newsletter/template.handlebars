@@ -23,11 +23,16 @@
                 {{title}}
             </a>
         </h2>
-        <p style="font-family: 'Helvetica Neue', helvetica, arial, sans-serif;font-size:16px">
-            {{descriptionHTML}}
+        {{#if description}}
+            <p style="font-family: 'Helvetica Neue', helvetica, arial, sans-serif;font-size:16px">
+                {{descriptionHTML}}
+                <a class="headline-source" style="font-size: 0.8em;color: #808080;text-decoration: none;font-weight: normal;word-wrap: break-word !important;" target="_blank" href="{{link}}"> ({{domain}})
+                </a>
+            </p>
+        {{else}}
             <a class="headline-source" style="font-size: 0.8em;color: #808080;text-decoration: none;font-weight: normal;word-wrap: break-word !important;" target="_blank" href="{{link}}"> ({{domain}})
             </a>
-        </p>
+        {{/if}}
     </div>
 {{/each}}
 </div>
