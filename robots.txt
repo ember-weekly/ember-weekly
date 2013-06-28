@@ -1,3 +1,4 @@
 # robotstxt.org
 
 User-agent: *
+Disallow: /job-posting.html.html
