@@ -301,15 +301,15 @@ module.exports = function (grunt) {
     ]);
 
 
-    grunt.registerTask('news', function () {
+    grunt.registerTask('news', function (arg1) {
         var Handlebars = require('handlebars');
         var Showdown = require('showdown');
         var URL = require('url');
         var markdownConverter = new Showdown.converter();
 
-        var templatePath = 'newsletter/template.handlebars';
+        var templatePath = arg1 === 'text' ? 'newsletter/text-template.handlebars' : 'newsletter/template.handlebars';
         var outputPath = 'newsletter/issues/';
-        var contentYaml = 'newsletter/content/ew-issue-12-[2013-06-23].yaml';
+        var contentYaml = 'newsletter/content/ew-issue-13-[2013-06-30].yaml';
         var content = {};
         var template = '';
 
@@ -348,7 +348,9 @@ module.exports = function (grunt) {
 
         var html = Handlebars.compile(template)(content);
 
-        var outputFileName = 'ew-issue-' + content.issue + '.html';
+        var extension = arg1 === 'text' ? '.txt' : '.html';
+
+        var outputFileName = 'ew-issue-' + content.issue + extension;
         grunt.log.write('writing ' + outputFileName + '...\n');
         grunt.file.write(outputPath + outputFileName, html);
 
