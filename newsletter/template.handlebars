@@ -8,16 +8,16 @@
 {{#each content}}
 <div class="news-section">
     {{#if image}}
-        <img src="{{image}}" height="125" width="125" style="margin-bottom: 10px; margin-top: 10px;display:block;" />
+        <img src="{{image}}" style="margin-bottom: 10px; margin-top: 10px;display:block;" />
     {{else}}
         <h1 style="display: block;font-family: 'Helvetica Neue', helvetica, arial, sans-serif;font-size: 16px;font-style: normal;font-weight: bold;line-height: 200%;letter-spacing: normal;margin: 0;text-align: left;color: #888888 !important;">
             {{heading}}
         </h1>
     {{/if}}
-{{#if description}}
+{{#if descriptionHTML}}
     <p></p>
     <p style="font-family: 'Helvetica Neue', helvetica, arial, sans-serif;">
-        {{description}}
+        {{descriptionHTML}}
     </p>
 {{/if}}
 
@@ -26,7 +26,7 @@
     <div class="headline" style="padding:8px 0;">
         {{#if image}}
             <a class="headline-source" style="color: #808080;text-decoration: none;" target="_blank" href="{{link}}">
-                <img src="{{image}}" height="125" width="125" style="float: left; margin-right: 14px; margin-bottom: 40px; margin-top: 20px;" />
+                <img src="{{image}}" style="float: left; margin-right: 14px; margin-bottom: 40px; margin-top: 20px;" />
             </a>
         {{/if}}
 
@@ -35,8 +35,8 @@
                 {{title}}
             </a>
         </h2>
-        {{#if description}}
-            <p style="font-family: 'Helvetica Neue', helvetica, arial, sans-serif;font-size:16px">
+        {{#if descriptionHTML}}
+            <p style="font-family: 'Helvetica Neue', helvetica, arial, sans-serif;font-size:16px; margin-top: 5px;">
                 {{descriptionHTML}}
                 <a class="headline-source" style="font-size: 0.8em;color: #808080;text-decoration: none;font-weight: normal;word-wrap: break-word !important;" target="_blank" href="{{link}}"> ({{domain}})
                 </a>

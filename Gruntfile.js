@@ -250,6 +250,20 @@ module.exports = function (grunt) {
             all: {
                 rjsConfig: '<%= yeoman.app %>/scripts/main.js'
             }
+        },
+
+        shell: {
+            options:{
+                stdout: true,
+                stderr: true,
+                failOnError: true
+            },
+            pushDist: {
+                command: 'git add dist && git commit -m "update dist" && git push'
+            },
+            deployPages: {
+                command: 'git subtree push --prefix dist origin gh-pages'
+            }
         }
     });
 
@@ -300,6 +314,12 @@ module.exports = function (grunt) {
         'build'
     ]);
 
+    grunt.registerTask('deploy', [
+        'build',
+        'shell:pushDist',
+        'shell:deployPages'
+    ]);
+
 
     grunt.registerTask('news', function (arg1) {
         var Handlebars = require('handlebars');
@@ -309,7 +329,7 @@ module.exports = function (grunt) {
 
         var templatePath = arg1 === 'text' ? 'newsletter/text-template.handlebars' : 'newsletter/template.handlebars';
         var outputPath = 'newsletter/issues/';
-        var contentYaml = 'newsletter/content/ew-issue-13-[2013-06-30].yaml';
+        var contentYaml = 'newsletter/content/ew-issue-17-[2013-07-28].yaml';
         var content = {};
         var template = '';
 
@@ -333,16 +353,25 @@ module.exports = function (grunt) {
             return;
         }
 
-        content.content.forEach(function(section){
-            section.headlines.forEach(function(headline){
-                var desc = markdownConverter.makeHtml(headline.description);
+        var convertToHTML = function(description){
+            if (description){
+                var desc = markdownConverter.makeHtml(description);
                 //very naive way to remove paragragh tag added by showdown
-                desc = desc.substring(3, desc.length);
-                desc = desc.substring(0, desc.length - 4);
-                headline.descriptionHTML = new Handlebars.SafeString(desc);
+                if (desc){
+                    desc = desc.substring(3, desc.length);
+                    desc = desc.substring(0, desc.length - 4);
+                    return new Handlebars.SafeString(desc);
+                }
+            }
+            return '';
+        };
+
+        content.content.forEach(function(section){
+            section.descriptionHTML = convertToHTML(section.description);
+            section.headlines.forEach(function(headline){
+                headline.descriptionHTML = convertToHTML(headline.description);
 
                 headline.domain = URL.parse(headline.link).hostname.replace('www.', '');
-
             });
         });
 
@@ -355,4 +384,6 @@ module.exports = function (grunt) {
         grunt.file.write(outputPath + outputFileName, html);
 
     });
+
+
 };
