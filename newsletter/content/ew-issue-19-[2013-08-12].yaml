@@ -1,4 +1,4 @@
-issue: 18
+issue: 19
 strapline: "Your weekly source of Ember News"
 content:
 
@@ -10,16 +10,16 @@ content:
             #     description: "In this free course, Tuts+ Premium instructor José Mota will teach you the ins and outs of the framework."
             #     link: http://freecourses.tutsplus.com/lets-learn-ember/
 
-    -
-        heading: "Ember Fest"
-        image: "https://d2q0qd5iz04n9u.cloudfront.net/_ssl/proxy.php/http/gallery.mailchimp.com/ac25c8565ec37f9299ac75ca0/images/logo_smallf3833f.png"
-        advert: true
-        headlines:
-            -
-                title: "The Biggest Ember.js Event in Europe!"
-                description: "Ember Fest takes place in Munich, Germany. A three day event featuring Training sessions, a full day Hackathon and a full day Conference. This will be the European Ember.js event of the year! Starting on August 29th and ending on August 30th, with a conference dinner and after party."
-                # image: https://si0.twimg.com/profile_images/378800000030945398/cf9a81d8d81affa2126f00af65708ed6.png
-                link: http://emberfest.eu/
+    # -
+    #     heading: "Ember Fest"
+    #     image: "https://d2q0qd5iz04n9u.cloudfront.net/_ssl/proxy.php/http/gallery.mailchimp.com/ac25c8565ec37f9299ac75ca0/images/logo_smallf3833f.png"
+    #     advert: true
+    #     headlines:
+    #         -
+    #             title: "The Biggest Ember.js Event in Europe!"
+    #             description: "Ember Fest takes place in Munich, Germany. A three day event featuring Training sessions, a full day Hackathon and a full day Conference. This will be the European Ember.js event of the year! Starting on August 29th and ending on August 30th, with a conference dinner and after party."
+    #             # image: https://si0.twimg.com/profile_images/378800000030945398/cf9a81d8d81affa2126f00af65708ed6.png
+    #             link: http://emberfest.eu/
 
     # -
     #     heading: "Watch/Listen"
@@ -58,14 +58,10 @@ content:
     # -
     #     heading: "Events"
     #     headlines:
-            -
-                title: "Boston Meetup"
-                description: "8th August, 6:30pm"
-                link: http://www.meetup.com/Boston-Ember-js/events/129526392/
-    #         -
-    #             title: "NEW: Budapest Meetup"
-    #             description: "There's a new Ember meetup group in Budapest, Hungary."
-    #             link: http://www.meetup.com/ember-bp/
+            # -
+            #     title: "Boston Meetup"
+            #     description: "8th August, 6:30pm"
+            #     link: http://www.meetup.com/Boston-Ember-js/events/129526392/
 
     # -
     #     heading: "Finally"
