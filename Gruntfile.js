@@ -21,6 +21,12 @@ module.exports = function (grunt) {
         dist: 'dist'
     };
 
+    ////////////////////////////////////////////////////////////////////////
+
+    var newsletterYaml = 'newsletter/content/ew-issue-20-[2013-08-19].yaml';
+
+    ////////////////////////////////////////////////////////////////////////
+
     grunt.initConfig({
         yeoman: yeomanConfig,
         watch: {
@@ -329,16 +335,15 @@ module.exports = function (grunt) {
 
         var templatePath = arg1 === 'text' ? 'newsletter/text-template.handlebars' : 'newsletter/template.handlebars';
         var outputPath = 'newsletter/issues/';
-        var contentYaml = 'newsletter/content/ew-issue-19-[2013-08-12].yaml';
         var content = {};
         var template = '';
 
-        if (!contentYaml && !grunt.file.exists(contentYaml)) {
-            grunt.log.error('error - no yaml file at ' + contentYaml);
+        if (!newsletterYaml && !grunt.file.exists(newsletterYaml)) {
+            grunt.log.error('error - no yaml file at ' + newsletterYaml);
             return;
         }
 
-        content = grunt.file.readYAML(contentYaml);
+        content = grunt.file.readYAML(newsletterYaml);
 
         grunt.log.write('yaml - ', content);
 
