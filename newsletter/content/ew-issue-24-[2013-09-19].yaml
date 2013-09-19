@@ -52,7 +52,7 @@ content:
                 link: http://www.youtube.com/watch?v=g5CSaK3HqVA
             -
                 title: "Understanding Events & Actions by Luke Melia"
-                description: "The video from Luke's talk from the Boston September Meetup on events & actions in Ember."
+                description: "The video from Luke's talk from the Boston September Meetup on events & actions in Ember. ([slides](https://speakerdeck.com/lukemelia/events-and-actions-in-ember-dot-js))"
                 link: http://www.youtube.com/watch?feature=player_detailpage&v=g5CSaK3HqVA#t=3510
             
     -
