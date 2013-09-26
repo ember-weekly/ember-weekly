@@ -19,8 +19,12 @@ content:
                 link: http://elweb.co/want-to-learn-ember-js-start-here/
             -
                 title: "Using Ember.js with jQuery UI"
-                description: "Luke Melia updated his blog post for Ember 1.0."
+                description: "Luke Melia updated his jQuery UI blog post for Ember 1.0."
                 link: http://www.lukemelia.com/blog/archives/2012/03/10/using-ember-js-with-jquery-ui/
+            -
+                title: "Ember App Kit Documentation Site"
+                description: "The initial version of the EAK documentation is online. Still missing some content from sections."
+                link: http://iamstef.net/ember-app-kit/
             -
                 title: "Scaffold for a Browser App Built With Ember.js, Rails, Ember.Data"
                 description: ""
@@ -41,17 +45,13 @@ content:
                 title: "Building Reusable UIs"
                 description: "Steve Kane talks about component architecture at the Chicago Meetup."
                 link: http://www.youtube.com/watch?v=zC7o1YkmkG0
-            
+
     -
         heading: "Code"
         headlines:
             -
-                title: "Ember App Kit Documentation Site"
-                description: "The initial version of the EAK documentation is online. Still missing some content from sections."
-                link: http://iamstef.net/ember-app-kit/
-            -
                 title: "Promise Error Handling Gist"
-                description: "Log all errors that are not immediately handled in promises."
+                description: "Log all errors that are not immediately handled in promises (by Stefan Penner)."
                 link: https://gist.github.com/stefanpenner/587e5f047d2f412fe463
             -
                 title: "Ember Testing with Mocha Adapter Example"
@@ -59,9 +59,9 @@ content:
                 link: https://github.com/CodeOfficer/example-ember-startup-kit-with-testing
             -
                 title: "emberFire - Firebase Ember Bindings"
-                description: "Looks like there's some initial work being done on Ember Bindings for Firebase."
+                description: "Looks like there is some initial work being done on Ember Bindings for Firebase."
                 link: https://github.com/firebase/emberFire
-            
+
     -
         heading: "Jobs"
         advert: true
@@ -70,7 +70,7 @@ content:
             #     title: "Front End Web Engineer - Clutch Analytics/Windhaven Insurance (Austin, TX)"
             #     description: "Get the coolest job in Austin building Ember.js apps with our innovative startup. Build greenfield apps for a rapidly growing automotive insurer. This unique opportunity requires team players with senior JS experience. Job.Plus = Ember.Experience.extend(); [contact us](mailto:jia.asencio@windhaveninsurance.com?Subject=Front%20End%20Web%20Engineer%20-%20Ember%20Weekly%20Job%20Posting) "
             #     link: http://www.windhaveninsurance.com/
-            
+
             -
                title: "Looking for an Ember Developer?"
                description: "Deliver your job opening directly to developers with known interest in Ember.js development. Simply reply for more information about posting a job in Ember Weekly."
@@ -108,14 +108,14 @@ content:
                 title: "NEW: Cincinnati, OH Meetup"
                 description: ""
                 link: http://www.meetup.com/Embernati/
-            
+
 
     -
         heading: "Finally"
         headlines:
             -
                 title: "Apple Help Guides Use Ember"
-                description: "Not exactly the most exciting app in the world but interesting to browse with the Chrome Adapter nevertheless."
+                description: "Not exactly the most exciting app in the world but interesting to browse with the Chrome Plugin nevertheless."
                 link: http://help.apple.com/iphone/7
             -
                 title: "Falling Blocks Game in Ember"
