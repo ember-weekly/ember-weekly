@@ -23,7 +23,6 @@ module.exports = function (grunt) {
 
     ////////////////////////////////////////////////////////////////////////
 
-    var newsletterYaml = 'newsletter/content/ew-issue-25-[2013-09-26].yaml';
     var newsletterYaml = 'newsletter/content/ew-issue-26-[2013-10-04].yaml';
 
     ////////////////////////////////////////////////////////////////////////
@@ -332,6 +331,8 @@ module.exports = function (grunt) {
         var Handlebars = require('handlebars');
         var Showdown = require('showdown');
         var URL = require('url');
+        var validator = require('validator');
+
         var markdownConverter = new Showdown.converter();
 
         var templatePath = arg1 === 'text' ? 'newsletter/text-template.handlebars' : 'newsletter/template.handlebars';
@@ -377,6 +378,13 @@ module.exports = function (grunt) {
             section.headlines.forEach(function(headline){
                 headline.descriptionHTML = convertToHTML(headline.description);
 
+                try{
+                    validator.check(headline.link).isUrl();
+                }catch(e){
+                    grunt.log.error('\nInvalid url for "' + headline.link + '" in headline', headline);
+                    throw e;
+                }
+
                 headline.domain = URL.parse(headline.link).hostname.replace('www.', '');
             });
         });
@@ -386,7 +394,7 @@ module.exports = function (grunt) {
         var extension = arg1 === 'text' ? '.txt' : '.html';
 
         var outputFileName = 'ew-issue-' + content.issue + extension;
-        grunt.log.write('writing ' + outputFileName + '...\n');
+        grunt.log.write('\nwriting ' + outputFileName + '...\n');
         grunt.file.write(outputPath + outputFileName, html);
 
     });
