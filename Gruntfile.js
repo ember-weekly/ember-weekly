@@ -381,8 +381,12 @@ module.exports = function (grunt) {
                 try{
                     validator.check(headline.link).isUrl();
                 }catch(e){
-                    grunt.log.error('\nInvalid url for "' + headline.link + '" in headline', headline);
-                    throw e;
+                    if (headline.link.indexOf('mailto:') !== -1){
+                        grunt.log.warn('Double check that the following mailto is vailid', headline.link);
+                    }else {
+                        grunt.log.error('\nInvalid url for "' + headline.link + '" in headline', headline);
+                        throw e;
+                    }
                 }
 
                 headline.domain = URL.parse(headline.link).hostname.replace('www.', '');
