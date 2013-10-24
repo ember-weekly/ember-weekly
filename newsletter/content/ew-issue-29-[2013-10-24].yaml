@@ -7,39 +7,47 @@ content:
         headlines:
             -
                 title: "Ember 1.1.1 Released"
-                description: "Includes tons of bug fixes, and documentation updates from 1.0. See the [changelog](https://github.com/emberjs/ember.js/blob/v1.1.1/CHANGELOG) for more details. Note: Ember 1.1.0 included a small regression in ``Ember.Object.create``."
+                description: "Includes tons of bug fixes and documentation updates from 1.0. See the [changelog](https://github.com/emberjs/ember.js/blob/v1.1.1/CHANGELOG) for more details. Note: Ember 1.1.0 included a small regression in ``Ember.Object.create``."
                 link: http://emberjs.com/builds/#/release/latest
             -
                 title: "Ember 1.2.0 Beta Available"
-                description: "This beta includes some new [flagged features](https://github.com/emberjs/ember.js/blob/beta/FEATURES.md)."
-                link: http://emberjs.com/builds/#/release/latest
+                description: "This beta includes some new [flagged features](https://github.com/emberjs/ember.js/blob/beta/FEATURES.md). See the [changelog](https://github.com/emberjs/ember.js/blob/beta/CHANGELOG) for more details."
+                link: http://emberjs.com/builds/#/beta/latest
     -
         heading: "Reading"
         headlines:
             # -
             #     title: ""
             #     description: ""
-            #     link: 
+            #     link:
             -
                 title: "Embereños: Jamie White - With Associates"
                 description: "Weekly interviews with companies and people using ember. This week's interview is with Jamie White of With Associates."
-                link: http://emberenos.com/interviews/2013/10/23/jamie-white-with-associates 
+                link: http://emberenos.com/interviews/2013/10/23/jamie-white-with-associates
             -
                 title: "Taming Computed Properties"
-                description: ""
+                description: "Uģis Ozols takes a close look at Computed Properties, specifically working with arrays."
                 link: http://ugisozols.com/blog/2013/10/17/emberjs-taming-computed-properties/
             -
                 title: "Announcing Firebase Bindings for EmberJS"
-                description: ""
+                description: "Official announcement of the Ember Firebase bindings library mentioned in previous issues."
                 link: https://www.firebase.com/blog/2013-10-22-firebase-bindings-for-ember.html
             -
                 title: "Ember.js Cheat Sheet"
-                description: "Based off the [Em­ber­She­rpa cheatsheet](http:/­/em­ber­she­rpa.co­m/c­hea­tsheet/)."
+                description: "Based off the [Em­ber­She­rpa cheatsheet](http://embersherpa.com/cheatsheet/)."
                 link: http://www.cheatography.com/mwore/cheat-sheets/ember-js/
+            -
+                title: "Ember.js & Laravel"
+                description: "Slides from Flamur Mavraj's Oslo meetup talk on using Ember with the Laravel PHP Framework."
+                link: http://talks.empirio.no/20131017-emberjs-laravel.html#/
+            -
+                title: "An Ember JS Gauge Component"
+                description: "A detailed walkthrough of building a Gauge ``Ember.Component``."
+                link: http://front-back.com/an-ember-js-gauge-component
 
-    -
-        heading: "Watch/Listen"
-        headlines:
+    # -
+    #     heading: "Watch/Listen"
+    #     headlines:
             # -
             #     title: ""
             #     description: ""
@@ -51,15 +59,23 @@ content:
             # -
             #     title: ""
             #     description: ""
-            #     link: 
+            #     link:
             -
                 title: "Spin.js Ember.Component"
                 description: "Ember Component using the Spin.js library by [Eric Berry](https://twitter.com/cavneb/status/392401353152008192)."
                 link: http://emberjs.jsbin.com/IVoluq/4/edit
             -
+                title: "Autocomplete Ember.Component"
+                description: "Based on the [Embercast autocomplete widget](http://www.embercasts.com/episodes/building-an-autocomplete-widget-part-1), Heyjin Kim re-created it as an Ember component."
+                link: http://emberjs.jsbin.com/auto-complete-component/4/edit
+            -
                 title: "ember_template.rb"
                 description: "A template for making Ember apps with Rails."
                 link: https://gist.github.com/steveklabnik/7094241
+            -
+                title: "Billy Data"
+                description: "Billy Data is a data layer for Ember.js. It works with a standard JSON REST API."
+                link: https://github.com/billysbilling/billy-data
 
     -
         heading: "Jobs"
@@ -97,7 +113,7 @@ content:
                 link: http://www.meetup.com/ember-bp/events/144270912/
             -
                 title: "NEW! Brussels, Belgium Meetup"
-                description: "31st October, 8:00pm."
+                description: "31st October, 8:00pm @ Salle Fénix at Betacowork / ICAB."
                 link: http://www.meetup.com/Ember-js-Brussels/events/144929462/
 
     # -
