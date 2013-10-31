@@ -61,6 +61,10 @@ content:
             #     description: ""
             #     link:
             -
+                title: "Ember PouchDB"
+                description: "Adds promises to PouchDB API to make PouchDB easier to use with Ember.js."
+                link: https://github.com/taras/ember-pouchdb
+            -
                 title: "Spin.js Ember.Component"
                 description: "Ember Component using the Spin.js library by [Eric Berry](https://twitter.com/cavneb/status/392401353152008192)."
                 link: http://emberjs.jsbin.com/IVoluq/4/edit
