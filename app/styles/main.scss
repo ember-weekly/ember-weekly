@@ -43,6 +43,13 @@ header{
 	}
 }
 
+.title-link,
+.title-link:hover,
+.title-link:focus{
+    text-decoration: none;
+    color: #fafafa;
+}
+
 @media only screen and (max-width: 768px) {
 	header{
 		padding: 1.2em 0 0.9em;
