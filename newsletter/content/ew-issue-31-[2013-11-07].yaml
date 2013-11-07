@@ -2,28 +2,32 @@ issue: 31
 strapline: "Your weekly source of Ember News"
 content:
 
-    # -
-    #     heading: "Releases"
-    #     headlines:
-            # -
-            #     title: ""
-            #     description: ""
-            #     link: 
+    -
+        heading: "Releases"
+        headlines:
+            -
+                title: "Handlebars 1.1.0"
+                description: "Includes AMD+ES6 support, whitespace control and a slew of bug fixes."
+                link: https://github.com/wycats/handlebars.js/blob/master/release-notes.md#v110---november-3rd-2013
+            -
+                title: "Ember Inspector v0.0.4"
+                description: "[Ember Inspector for Firefox](https://github.com/tildeio/ember-extension/pull/60) was also just merged."
+                link: https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi/related?hl=en
     -
         heading: "Reading"
         headlines:
-            # -
-            #     title: ""
-            #     description: ""
-            #     link: 
-            # -
-            #     title: ""
-            #     description: ""
-            #     link: 
-            # -
-            #     title: ""
-            #     description: ""
-            #     link: 
+            -
+                title: "Embereños: Joe Fiorini - D-I"
+                description: "Weekly interviews with companies and people using ember. This week's interview is with Joe Fiorini of D-I."
+                link: http://emberenos.com/interviews/2013/11/6/joe-fiorini-d-i
+            -
+                title: "Understanding Nesting in Ember.js"
+                description: ""
+                link: http://ugisozols.com/blog/2013/11/05/understanding-nesting-in-emberjs/
+            -
+                title: ""
+                description: ""
+                link: 
             
     -
         heading: "Promoted"
@@ -31,27 +35,35 @@ content:
         advert: true
         headlines:
             -
-                title: "JavaScript SEO: Can Google read javascript websites?"
-                description: "Find out how to make your Ember.js website visible to Google."
+                title: "Don't struggle to figure out SEO for your Ember.js app"
+                description: "BromBone takes care of it for you. We render html snapshots of your pages that Google can read. Learn more about how you can get your Ember.js pages listed in Google."
                 # image: "https://raw.github.com/owilliams/ember-weekly/master/newsletter/ads/media/brombone_logo.png"
                 link: http://www.brombone.com/
                 advert: true
                 
-    # -
-    #     heading: "Watch/Listen"
-    #     headlines:
-    #         -
-    #             title: ""
-    #             description: ""
-    #             link:
+    -
+        heading: "Watch/Listen"
+        headlines:
+            -
+                title: "EmberFest 2013: Query Params with the Ember Router"
+                description: "Alex Speller introduces Ember Query, a library enabling query string usage in Ember: introduction, advanced usage, tips & tricks, the future."
+                link: http://www.infoq.com/presentations/ember-query-string
 
-    # -
-    #     heading: "Code"
-    #     headlines:
-    #         -
-    #             title: ""
-    #             description: ""
-    #             link:
+    -
+        heading: "Code"
+        headlines:
+            -
+                title: "Addepar Ember Charts"
+                description: "A charting library built with the Ember.js and d3.js frameworks. It includes time series, bar, pie, and scatter charts which are easy to extend and modify."
+                link: http://addepar.github.io/#/ember-charts/overview
+            -
+                title: "Addepar Ember Widgets"
+                description: "Includes easy to extend components such as select, popover, modal, carousel, and accordion built on bootstrap 3.0 CSS."
+                link: http://addepar.github.io/#/ember-widgets/overview 
+            -
+                title: "Ember-Rails"
+                description: "Updated to v0.14.0. Ember-Rails makes developing an Ember application much easier in Rails 3.1+. Also check out [Ember App Kit Rails](https://github.com/dockyard/ember-appkit-rails)."
+                link: 0.14.0
             
 
     -
@@ -71,10 +83,18 @@ content:
     -
         heading: "Events"
         headlines:
-            # -
-            #     title: "Brussels, Belgium Meetup"
-            #     description: "31st October, 8:00pm @ Salle Fénix at Betacowork / ICAB."
-            #     link: http://www.meetup.com/Ember-js-Brussels/events/144929462/
+            -
+                title: "Toronto, Canada Meetup"
+                description: "7th November, 7:00pm @ Pharmacy."
+                link: http://www.torontoemberjs.com/
+            -
+                title: "Boston Meetup"
+                description: "14th November, 6:300pm @ DockYard."
+                link: http://www.meetup.com/Boston-Ember-js/events/146077642/
+            -
+                title: "EmberFest 2014"
+                description: "EmberFest, \"The Biggest Ember.js Event in Europe!\", will be back on 27-29th August 2014 in Barcelona, Spain. Sign up to the mailing list for more news."
+                link: http://emberfest.eu/
 
     # -
     #     heading: "Finally"
