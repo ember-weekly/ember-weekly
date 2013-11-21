@@ -9,12 +9,12 @@ content:
                 title: "Ember 1.2.0 Beta 4 Available"
                 description: "Includes mainly bug fixes and Handlebars v1.1 support. See the [changelog](https://github.com/emberjs/ember.js/blob/v1.2.0-beta.4/CHANGELOG) for more."
                 link: http://emberjs.com/builds/#/beta/latest
-   -
+    -
         heading: "Reading"
         headlines:
             -
                 title: "Animating route transitions in ember.js"
-                description: "David Kelso presents an approach to animating route transitions using animation hooks in the Route and promises."
+                description: "David Kelso presents an approach to animating route transitions using promises and route animation hooks."
                 link: http://blog.relatabase.com/ember-animated-routes
             -
                 title: "Embereños: Eric Berry - Instructure"
@@ -62,7 +62,7 @@ content:
                 link: http://jsbin.com/ucanam/2214/edit
             -
                 title: "Ember-Autosuggest"
-                description: "Updated for Ember 1.1.2 & Ember Data Beta 4, ember-autosuggest will suggest names from a bound list.."
+                description: "Updated for Ember 1.1.2 & Ember Data Beta 4, ember-autosuggest will suggest names from a bound list."
                 link: https://github.com/dagda1/ember-autosuggest
 
     -
