@@ -13,16 +13,20 @@ content:
         heading: "Reading"
         headlines:
             -
+                title: "ng-embereño: Angular.js from the perspective of Ember.js"
+                description: "Slides form Alex Matchneer's egarly awaited talk on Angular.js at the November NYC meetup. To quote Brian Ford (Angular.js Core Team) \"Cursory glance suggests that this might be the most reasonable comparison I've seen yet. Nicely done!\". Hopefully, we'll have the video in future issues."
+                link: https://docs.google.com/presentation/d/1e0z1pT9JuEh8G5DOtib6XFDHK0GUFtrZrU3IfxJynaA/preview?sle=true#slide=id.p
+            -
                 title: "Animating route transitions in ember.js"
                 description: "David Kelso presents an approach to animating route transitions using promises and route animation hooks."
                 link: http://blog.relatabase.com/ember-animated-routes
             -
                 title: "Embereños: Eric Berry - Instructure"
-                description: "Weekly interviews with companies and people using ember. This week's interview is with Eric Berry from Instructure."
+                description: "Weekly interviews with real people using ember. This week's interview is with Eric Berry from Instructure."
                 link: http://emberenos.com/interviews/2013/11/20/eric-berry-instructure
             -
                 title: "Beginning Ember: How to add dynamic segments to your route"
-                description: "A nice guide to dynamic segments in Ember."
+                description: "A nice guide to dynamic segments in Ember's router."
                 link: http://rickharrison.me/beginning-ember-how-to-add-dynamic-segments-to-your-route
             -
                 title: "Preloading Fixture Data with Ember App Kit"
@@ -33,6 +37,10 @@ content:
                 description: "As part of the [30 Technologies in 30 Days](https://www.openshift.com/blogs/learning-30-technologies-in-30-days-a-developer-challenge) challenge Shekhar Gulati gives an intorduction to Ember."
                 link: https://www.openshift.com/blogs/day-19-ember-the-missing-emberjs-tutorial
             -
+                title: "Ember.js Components, Wrapping Content and Context"
+                description: ""
+                link: http://www.thesoftwaresimpleton.com/blog/2013/11/21/component-block/
+            -
                 title: "Ember Data: Polymorphic Associations"
                 description: ""
                 link: http://lukegalea.github.io/ember_data_polymorphic_presentation/
@@ -42,7 +50,7 @@ content:
         headlines:
             -
                 title: "Firebase & Ember - Matthew Rudy Jacobs"
-                description: "Matthew discusses how to get the best features of Meteor in your Ember.js app with Firebase. From the November 2013 Ember London meetup."
+                description: "Matthew discusses how to get the best features of Meteor in your Ember.js app using Firebase. From the November 2013 Ember London meetup."
                 link: http://vimeo.com/79471076
             -
                 title: "Query Parameters - Alex Speller"
