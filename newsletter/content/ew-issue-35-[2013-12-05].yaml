@@ -1,0 +1,77 @@
+issue: 31
+strapline: "Your weekly source of Ember News"
+content:
+
+    # -
+    #     heading: "Releases"
+    #     headlines:
+    #         -
+    #             title: ""
+    #             description: ""
+    #             link: 
+
+    # -
+    #     heading: "Reading"
+    #     headlines:
+    #         -
+    #             title: ""
+    #             description: ""
+    #             link: 
+
+    -
+        heading: "Promoted"
+        image: "https://raw.github.com/owilliams/ember-weekly/master/newsletter/ads/media/brombone_logo.png"
+        advert: true
+        headlines:
+            -
+                title: "Don't struggle to figure out SEO for your Ember.js app"
+                description: "BromBone takes care of it for you. We render html snapshots of your pages that Google can read. Learn more about how you can get your Ember.js pages listed in Google."
+                # image: "https://raw.github.com/owilliams/ember-weekly/master/newsletter/ads/media/brombone_logo.png"
+                link: http://www.brombone.com/
+                advert: true
+
+    # -
+    #     heading: "Watch/Listen"
+    #     headlines:
+    #         -
+    #             title: ""
+    #             description: ""
+    #             link: 
+
+    # -
+    #     heading: "Code"
+    #     headlines:
+    #         -
+    #             title: ""
+    #             description: ""
+    #             link: 
+    #         -
+    #             title: ""
+    #             description: ""
+    #             link: 
+
+
+    # -
+    #     heading: "Jobs"
+    #     advert: true
+    #     headlines:
+    #         -
+    #            title: "Looking for an Ember Developer?"
+    #            description: "Deliver your job opening directly to developers with known interest in Ember.js development. Simply reply for more information about posting a job in Ember Weekly."
+    #            domain: emberweekly.com
+    #            link: mailto:info@emberweekly.com?Subject=Post%20a%20Job%20in%20Ember%20Weekly&Body=Title%3A%20e.g%20Senior%20Front-End%20Web%20Developer%0ABody%3A%20e.g.%20Want%20to%20work%20on%20large%20Ember.js%20projects%3F%20We%27re%20looking%20for%20a%20rockstar%20developer%20with%205%20years%20JavaScript%20experience%21%20%0Aurl%3A%20e.g.%20www.your-companies-website.com/careers%0A%0A%23%20weeks%3A%20How%20many%20weeks%20would%20you%20like%20the%20ad%20to%20be%20live%20for%3F%0ADate%3A%20When%20would%20you%20like%20the%20ad%20to%20go%20live%3F%0A%0ANotes%3A%20any%20other%20info%20you%27d%20like%20us%20to%20know...%3F%0ANote.%20There%20is%20a%20fee%20associated%20with%20advertising%20a%20job
+
+    # -
+    #     heading: "Events"
+    #     headlines:
+
+        
+
+    # -
+    #     heading: "Finally"
+    #     headlines:
+    #         -
+    #             title: ""
+    #             description: ""
+    #             link:
+
