@@ -1,4 +1,4 @@
-issue: 31
+issue: 35
 strapline: "Your weekly source of Ember News"
 content:
 
@@ -8,7 +8,7 @@ content:
     #         -
     #             title: ""
     #             description: ""
-    #             link: 
+    #             link:
 
     # -
     #     heading: "Reading"
@@ -16,7 +16,7 @@ content:
     #         -
     #             title: ""
     #             description: ""
-    #             link: 
+    #             link:
 
     -
         heading: "Promoted"
@@ -36,7 +36,7 @@ content:
     #         -
     #             title: ""
     #             description: ""
-    #             link: 
+    #             link:
 
     # -
     #     heading: "Code"
@@ -44,11 +44,11 @@ content:
     #         -
     #             title: ""
     #             description: ""
-    #             link: 
+    #             link:
     #         -
     #             title: ""
     #             description: ""
-    #             link: 
+    #             link:
 
 
     # -
@@ -65,7 +65,7 @@ content:
     #     heading: "Events"
     #     headlines:
 
-        
+
 
     # -
     #     heading: "Finally"

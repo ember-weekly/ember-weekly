@@ -1,4 +1,4 @@
-issue: 33
+issue: 34
 strapline: "Your weekly source of Ember News"
 content:
 
@@ -7,15 +7,15 @@ content:
         headlines:
             -
                 title: "Ember 1.2.0 released"
-                description: "Components and helpers registered on the container can be rendered in templates via their dasherized names, non-block form link-to helper, support for nested loading/error substates, mainly bug fixes and Handlebars v1.1 support [changelog](https://github.com/emberjs/ember.js/blob/v1.2.0/CHANGELOG)"
+                description: "Features include:  support for nested loading/error substates, components/helpers registered on the container can be rendered in templates via their dasherized names, non-block form link-to helper, Handlebars v1.1 support and bug fixes. ([changelog](https://github.com/emberjs/ember.js/blob/v1.2.0/CHANGELOG))"
                 link: http://emberjs.com/builds/#/release/latest
             -
                 title: "Ember 1.3.0 Beta 1 Available"
-                description: "Currently mainly bug fixes and Ember Testing improvements. ([changelog](https://github.com/emberjs/ember.js/blob/v1.3.0-beta.1/CHANGELOG.md#ember-130beta1))"
+                description: "Mainly bug fixes and Ember Testing improvements. ([changelog](https://github.com/emberjs/ember.js/blob/v1.3.0-beta.1/CHANGELOG.md#ember-130beta1))"
                 link: http://emberjs.com/builds/#/beta/latest
             -
                 title: "Ember Inspector fo Firefox"
-                description: "The popular tool for debugging your Ember applications is also available on Firefox [as we as Chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi?hl=en)."
+                description: "The popular tool for debugging your Ember applications is also available on Firefox [as well as Chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi?hl=en)."
                 link: https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/
     -
         heading: "Reading"
@@ -34,11 +34,11 @@ content:
                 link: http://elweb.co/building-ember-js-applications-for-production/
             -
                 title: "Ember Data Documentation [Updated]"
-                description: "There has been [gradual improvement](https://github.com/emberjs/website/issues/1064) of the Ember Data docs recently, with some improvements for the betas now live in the guides."
+                description: "There's been [gradual improvement](https://github.com/emberjs/website/issues/1064) of the Ember Data docs recently, with many improvements now live in the guides."
                 link: http://emberjs.com/guides/models/
             -
                 title: "Embereños, The Ugly."
-                description: "A look back at what Ember developers find most frustrating and what being done to address these complaints."
+                description: "A look back at what Ember developers find most frustrating and what's being done to address these complaints."
                 link: http://emberenos.com/interviews/2013/11/27/embereos-the-ugly
             -
                 title: "Angular.js vs Ember.js Star Rating Component Comparison"
@@ -73,16 +73,12 @@ content:
                 description: "Thomas Herrmann discusses the advantages, challenges and lessons learned in building a multimedia-heavy, interactive HTML5 application with Ember.js."
                 link: http://www.infoq.com/presentations/hypermedia-emberjs-html5
             -
-                title: "Autorun and Promises in Ember Testing with Stefan Penner"
-                description: "An explanation of Autorun and Promises in Ember Testing as a response to [Ryan Florence's gist](https://gist.github.com/rpflorence/02e35f0968af95c51307) on difficulties testing Ember applications. Also see the [Notes & Resolutions](https://gist.github.com/stefanpenner/67d2b6efba50969f4efc) and the [original video](https://www.youtube.com/watch?v=QBLMdlnNhkY)."
-                link: https://www.youtube.com/watch?v=219GiuArXrA
-            -
-                title: "Unit Testing, Global Namespace, Modules and Testing Models with Stefan Penner"
-                description: "Discussion on testing in response to [Ryan Florence's gist](https://gist.github.com/rpflorence/02e35f0968af95c51307) on difficulties testing Ember applications. Also see the [Notes & Resolutions](https://gist.github.com/stefanpenner/67d2b6efba50969f4efc) and the [original video](https://www.youtube.com/watch?v=QBLMdlnNhkY)."
-                link: https://www.youtube.com/watch?v=219GiuArXrA
+                title: "Ember Testing Discussions with Stefan Penner & Friends"
+                description: "A collection of videos as a response to [Ryan Florence's gist](https://gist.github.com/rpflorence/02e35f0968af95c51307) on difficulties testing Ember applications. Includes an explanation of Autorun and Promises in Ember Testing, Unit Testing, Global Namespace, Modules and Testing Models. Also see the [Notes & Resolutions](https://gist.github.com/stefanpenner/67d2b6efba50969f4efc) and the [original video](https://www.youtube.com/watch?v=QBLMdlnNhkY)."
+                link: https://www.youtube.com/channel/UCabmYipmSafv_Rn2DPyU3OA?feature=watch
             -
                 title: "Ember Build Tools Showdown"
-                description: "A talk by Eric Berry at the Ember Salt Lake City meetup which covers the different build tool options for Ember and evaluates the pros and cons of each. ([slides](https://speakerdeck.com/cavneb/ember-build-tools-showdown))"
+                description: "A talk by Eric Berry at the Ember Salt Lake City meetup covering the different build tool options for Ember and evaluates the pros and cons of each. ([slides](https://speakerdeck.com/cavneb/ember-build-tools-showdown))"
                 link: https://www.youtube.com/watch?v=b1VfmeXznfk&feature=player_detailpage&list=UU7zhgq6ntpbl0tgOsTTsenw#t=640
 
     -
