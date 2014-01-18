@@ -1,0 +1,88 @@
+# issue: 40
+# strapline: "Your weekly source of Ember News"
+# content:
+
+    # -
+    #     heading: "Releases"
+    #     headlines:
+    #         -
+    #             title:
+    #             description: 
+    #             link: 
+
+    # -
+    #     heading: "Featured"
+    #     headlines:
+    #         -
+    #             title:
+    #             description: 
+    #             link: 
+    
+
+    # -
+    #     heading: "Reading"
+    #     headlines:
+    #         -
+    #             title:
+    #             description: 
+    #             link: 
+    #         -
+    #             title:
+    #             description: 
+    #             link: 
+    #         -
+    #             title:
+    #             description: 
+    #             link: 
+    #         -
+    #             title:
+    #             description: 
+    #             link: 
+            
+
+    # -
+    #     heading: "Promoted"
+    
+
+    # -
+    #     heading: "Code"
+    #     headlines:
+    #         -
+    #             title:
+    #             description: 
+    #             link: 
+    #         -
+    #             title:
+    #             description: 
+    #             link: 
+
+
+    # -
+    #     heading: "Watch/Listen"
+    #     headlines:
+    #         -
+    #             title:
+    #             description: 
+    #             link: 
+    #         -
+    #             title:
+    #             description: 
+    #             link: 
+
+
+    # -
+    #     heading: "Events"
+    #     headlines:
+    #         -
+    #             title:
+    #             description: 
+    #             link: 
+
+
+    # -
+    #     heading: "Finally"
+    #     headlines:
+    #         -
+    #             title:
+    #             description: 
+    #             link: 
