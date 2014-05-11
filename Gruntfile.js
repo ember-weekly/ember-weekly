@@ -23,7 +23,7 @@ module.exports = function (grunt) {
 
     ////////////////////////////////////////////////////////////////////////
 
-    var newsletterYaml = 'newsletter/content/ew-issue-43-[2014-02-01].yaml';
+    var newsletterYaml = 'newsletter/content/ew-issue-57-[2014-05-11].yaml';
 
     ////////////////////////////////////////////////////////////////////////
 
@@ -375,22 +375,24 @@ module.exports = function (grunt) {
 
         content.content.forEach(function(section){
             section.descriptionHTML = convertToHTML(section.description);
-            section.headlines.forEach(function(headline){
-                headline.descriptionHTML = convertToHTML(headline.description);
+            if (section.headlines){
+                section.headlines.forEach(function(headline){
+                    headline.descriptionHTML = convertToHTML(headline.description);
 
-                try{
-                    validator.check(headline.link).isUrl();
-                }catch(e){
-                    if (headline.link.indexOf('mailto:') !== -1){
-                        grunt.log.warn('Double check that the following mailto is vailid', headline.link);
-                    }else {
-                        grunt.log.error('\nInvalid url for "' + headline.link + '" in headline', headline);
-                        throw e;
+                    try{
+                        validator.check(headline.link).isUrl();
+                    }catch(e){
+                        if (headline.link.indexOf('mailto:') !== -1){
+                            grunt.log.warn('Double check that the following mailto is vailid', headline.link);
+                        }else {
+                            grunt.log.error('\nInvalid url for "' + headline.link + '" in headline', headline);
+                            throw e;
+                        }
                     }
-                }
 
-                headline.domain = URL.parse(headline.link).hostname.replace('www.', '');
-            });
+                    headline.domain = URL.parse(headline.link).hostname.replace('www.', '');
+                });
+            }
         });
 
         var html = Handlebars.compile(template)(content);
