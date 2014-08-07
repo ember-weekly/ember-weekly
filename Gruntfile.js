@@ -23,7 +23,7 @@ module.exports = function (grunt) {
 
     ////////////////////////////////////////////////////////////////////////
 
-    var newsletterYaml = 'newsletter/content/ew-issue-61-[2014-06-08].yaml';
+    var newsletterYaml = 'newsletter/content/ew-issue-68-[2014-08-02].yaml';
 
     ////////////////////////////////////////////////////////////////////////
 
@@ -332,6 +332,8 @@ module.exports = function (grunt) {
         var Showdown = require('showdown');
         var URL = require('url');
         var validator = require('validator');
+        var httpcheck = require('httpcheck')
+        var RSVP = require('rsvp');
 
         var markdownConverter = new Showdown.converter();
 
@@ -395,14 +397,57 @@ module.exports = function (grunt) {
             }
         });
 
-        var html = Handlebars.compile(template)(content);
+        var done = this.async();
 
-        var extension = arg1 === 'text' ? '.txt' : '.html';
+        var allPromise = [];
+        var validateURL = true;
 
-        var outputFileName = 'ew-issue-' + content.issue + extension;
-        grunt.log.write('\nwriting ' + outputFileName + '...\n');
-        grunt.file.write(outputPath + outputFileName, html);
+        //Check for URL 404
+        if (validateURL){
+            content.content.forEach(function(section){
+                if (section.headlines){
+                    section.headlines.forEach(function(headline){
+                        var promise = new RSVP.Promise(function(resolve, reject) {
+                            httpcheck({
+                                url: headline.link,
+                                log: grunt.log.debug,
+                                checkTries:3,
+                                check: function(res) {
+                                    if (res && res.statusCode !== 404) {
+                                        return true;
+                                    }
+                                    grunt.log.warn('HTTP check Failed ' + res.statusCode + ' for url "' + headline.link + '"');
+                                    return false;
+                                }
+                            }, function(err) {
+                                if (err) {
+                                    reject(err);
+                                }
+                                resolve(headline.link);
+                            });
+                        });
 
+                        promise.then(function(link) {
+                            grunt.log.debug('HTTP check for "' + link + '" passed!');
+                        }, function(link) {
+                            grunt.log.error('HTTP check for "' + link + '" failed!');
+                        });
+                        allPromise.push(promise);
+                    });
+                }
+            });
+        }
+
+        RSVP.all(allPromise).then(function() {
+            done();
+            var html = Handlebars.compile(template)(content);
+
+            var extension = arg1 === 'text' ? '.txt' : '.html';
+
+            var outputFileName = 'ew-issue-' + content.issue + extension;
+            grunt.log.write('\nwriting ' + outputFileName + '...\n');
+            grunt.file.write(outputPath + outputFileName, html);
+        });
     });
 
 
