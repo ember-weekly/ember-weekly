@@ -23,7 +23,7 @@ module.exports = function (grunt) {
 
     ////////////////////////////////////////////////////////////////////////
 
-    var newsletterYaml = 'newsletter/content/ew-issue-69-[2014-08-10].yaml';
+    var newsletterYaml = 'newsletter/content/ew-issue-70-[2014-08-17].yaml';
 
     ////////////////////////////////////////////////////////////////////////
 
