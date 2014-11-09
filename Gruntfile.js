@@ -23,7 +23,7 @@ module.exports = function (grunt) {
 
     ////////////////////////////////////////////////////////////////////////
 
-    var newsletterYaml = 'newsletter/content/ew-issue-76-[2014-09-28].yaml';
+    var newsletterYaml = 'newsletter/content/ew-issue-82-[2014-11-09].yaml';
 
     ////////////////////////////////////////////////////////////////////////
 
@@ -438,8 +438,8 @@ module.exports = function (grunt) {
             });
         }
 
-        RSVP.all(allPromise).then(function() {
-            done();
+        // RSVP.all(allPromise).then(function() {
+        //     done();
             var html = Handlebars.compile(template)(content);
 
             var extension = arg1 === 'text' ? '.txt' : '.html';
@@ -447,6 +447,12 @@ module.exports = function (grunt) {
             var outputFileName = 'ew-issue-' + content.issue + extension;
             grunt.log.write('\nwriting ' + outputFileName + '...\n');
             grunt.file.write(outputPath + outputFileName, html);
+        // });
+
+        RSVP.all(allPromise).then(function() {
+            grunt.log.write('\nFinished Validating!\n');
+            done();
+
         });
     });
 

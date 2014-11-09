@@ -80,14 +80,14 @@ content:
             #     description: ""
             #     link:
 
-    -
-        heading: "Jobs"
-        advert: true
-        headlines:
-            -
-               title: "This job will let you solve challenges you've never experienced"
-               description: "Pitchtarget is a marketing platform that makes complex tasks easy. If you think you've built great UXs, you should join us. We are looking for Frontend Engineers who love Ember and know how to quickly shop great interfaces and experiences."
-               link: http://www.pitchtarget.com/careers/?position=frontend-developer
+    # -
+    #     heading: "Jobs"
+    #     advert: true
+    #     headlines:
+    #         -
+    #            title: "This job will let you solve challenges you've never experienced"
+    #            description: "Pitchtarget is a marketing platform that makes complex tasks easy. If you think you've built great UXs, you should join us. We are looking for Frontend Engineers who love Ember and know how to quickly shop great interfaces and experiences."
+    #            link: http://www.pitchtarget.com/careers/?position=frontend-developer
 
     -
         heading: "Watch/Listen"
