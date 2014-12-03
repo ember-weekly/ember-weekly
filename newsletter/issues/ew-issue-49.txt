@@ -1,0 +1,226 @@
+Your weekly source of Ember News
+ISSUE #49
+
+Open Web Version (*|ARCHIVE|*)
+
+
+------------------------------------------------------------
+* Featured
+------------------------------------------------------------
+
+
+** In Defence of Frameworks: Why Ember Is Proud To Be One
+------------------------------------------------------------
+
+A keynote from Fluent 2014 by Yehuda Katz &amp; Tom Dale where they discuss what defines a framework compared to libraries (e.g Backbone) and toolsets (e.g. Angular), and how a framework helps the developer. (https://www.youtube.com/watch?v=jScLjUlLTLI)
+
+
+** Yehuda Katz and Tom Dale interviewed at Fluent 2014
+------------------------------------------------------------
+
+After the Defence of Frameworks talk Yehuda &amp; Tom sat down for an interview with Brian McDonald to discuss their thoughts in a bit more detail. (https://www.youtube.com/watch?v=VI__nGPT9kk)
+
+
+
+------------------------------------------------------------
+* Reading
+------------------------------------------------------------
+
+
+** Views Over Components - An Ember Refactoring Story
+------------------------------------------------------------
+
+A look at how converting your views to be reusable components can simplify your application. (http://modeset.com/what-we-know/2014/03/13/views-over-components)
+
+
+** Meet Ember.js: Not Just Another JS Framework
+------------------------------------------------------------
+
+Nice slides introducing Ember and its concepts. By Miguel Camba at BarcelonaJS. (http://miguelcamba.com/talks/meet-ember-js/)
+
+
+** Client-side Auth with Ember.js
+------------------------------------------------------------
+
+Slides that walkthrough authenticating users with Facebook and Windows Live Oauth by using dependency injection, dependency lookup, promises, and routing hooks in Ember. (http://www.slideshare.net/mixonic/client-side-auth-with-ember)
+
+
+** Building an App with Ember App Kit - Part 1
+------------------------------------------------------------
+
+First in a series of posts walking through building a simple CRUD app with Ember, Ember Data, and Ember App Kit &amp; Rails API. (http://blog.jasonkriss.com/building-an-app-with-ember-app-kit-part-1/)
+
+
+** Computed Property for All Keys of an Object
+------------------------------------------------------------
+
+How to create a computed property that recomputes if any of an objects properties change by dynamically evaluating an objects properties. (http://www.thesoftwaresimpleton.com/blog/2014/03/11/cp-all-keys/)
+
+
+** Building a Mobile-friendly Web App Using Ember.js and jQuery Mobile
+------------------------------------------------------------
+
+A walkthrough of how to make jQuery Mobile play nice with Ember. (http://blog.mist.io/post/78757774060/building-a-mobile-friendly-web-app-using-ember-js-and)
+
+
+** [Ember.js] Implement Autoscrolling in a Chat Room
+------------------------------------------------------------
+
+An small example of using &#x60;&#x60;Ember.View&#x60;&#x60; to handle autoscrolling in a chat application. (https://medium.com/p/4028dd719511)
+
+
+
+------------------------------------------------------------
+* Code
+------------------------------------------------------------
+
+
+** Ember Class Tree
+------------------------------------------------------------
+
+Brian Cardarella has put together an awesome JSBin to visualize Ember&#x27;s classes and inheritance. Includes Ember Data and filtering. (http://emberjs.jsbin.com/pavarama/4)
+
+
+** ember-ink-filepicker
+------------------------------------------------------------
+
+A simple example of using Ink Filepicker with Ember.js by Max Minkoff. (https://github.com/mminkoff/ember-ink-filepicker)
+
+
+** ember-hoodie-adapter
+------------------------------------------------------------
+
+Store your Ember application data with Hoodie. (https://github.com/gr2m/ember-hoodie-adapter)
+
+
+
+------------------------------------------------------------
+* Watch/Listen
+------------------------------------------------------------
+
+
+** HTMLBars, the future of templating in Ember.js
+------------------------------------------------------------
+
+Erik Bryn introduces HTMLBars to the Ember NYC meetup. He discusses the future of the Ember view layer including performance improvements, animation support and server-side rendering for improved SEO support. (http://www.youtube.com/watch?v=vjBs07kgjq0#t=3586)
+
+
+** Ember Controller versus ObjectController
+------------------------------------------------------------
+
+Cory Forsyth discusses the difference between a standard &#x60;&#x60;Ember.Controller&#x60;&#x60; and an &#x60;&#x60;Ember.ObjectController&#x60;&#x60;. (http://www.youtube.com/watch?v=vjBs07kgjq0#t=567)
+
+
+** Building Vine.co
+------------------------------------------------------------
+
+Janessa Det shows how she built the Vine.co website using Ember at Ember NYC. (http://www.youtube.com/watch?v=vjBs07kgjq0#t=1805)
+
+
+** Ember Sparks 2: Switching to Ember Data
+------------------------------------------------------------
+
+A short example of how to use Ember Data in your application using the bloggr client to demonstrate. (http://www.youtube.com/watch?v=i1Qzaf6lV1Q&amp;list=UUJasK7cAgRz1RGMJCoRLXXQ)
+
+
+** NBCNews.com at Seattle Ember Meetup
+------------------------------------------------------------
+
+Lance Harper shows how his team put together the new Ember version of NBCNews.com at the Seattle meetup. (http://www.youtube.com/watch?v=4ixw_5keMTc)
+
+
+** Using Persistent Data Structures with Ember.js by Jamie White 
+------------------------------------------------------------
+
+Jaime explores how using immutable data trees in Ember could work, and the advantages that it could bring. (http://vimeo.com/89089876)
+
+
+** Architecting for the Enterprise by Thomas Cowell
+------------------------------------------------------------
+
+A talk from the Ember London User Group discussing when a single-page application, like those built with Ember, are the right and wrong solution. (http://vimeo.com/89076477)
+
+
+** Ghostalk Episode 3 - Ember with Taras Mankovski
+------------------------------------------------------------
+
+A podcast about the Ghost open source blogging platform, which recently decided to migrate their admin UI to Ember. This episode has special guest Taras Mankovski aka EmberSherpa. (http://talk.ghost.io/3/)
+
+
+
+------------------------------------------------------------
+* Events
+------------------------------------------------------------
+
+
+** Ember.js San Francisco
+------------------------------------------------------------
+
+18th March, 7:30pm @ Pivotal Labs, San Francisco. (http://www.meetup.com/Ember-SF/events/156014962/)
+
+
+** Ember-SC
+------------------------------------------------------------
+
+Hack Night. 18th March, 7:30pm @ Neudesic, Irvine. (http://www.meetup.com/Ember-SC/events/167110092/)
+
+
+** Ember.JS DC
+------------------------------------------------------------
+
+Ember-Data. 18th March, 7:30pm @ Offices of Resonate Insights, Reston. (http://www.meetup.com/Ember-JS-DC/events/169578952/)
+
+
+** Embernati
+------------------------------------------------------------
+
+19th March, 7:00pm @ Gaslight, Cincinnati. (http://www.meetup.com/EmberNati/events/167144492/)
+
+
+** Ember.js Munich
+------------------------------------------------------------
+
+19th March, 8:00pm @ Scoreloop, München. (http://www.meetup.com/Ember-js-Munich/events/162106812/)
+
+
+** NEW: Ember DC
+------------------------------------------------------------
+
+Lightning Talks - inaugural meetup. 20th March, 7:00pm @ WeWork, Washington, DC. (http://www.meetup.com/Ember-DC/events/170562092/)
+
+
+** Ember.js Pittsburgh
+------------------------------------------------------------
+
+CoffeeScript + User Auth patterns. 20th March, 8:00pm @ Revv Oakland, Pittsburgh. (http://www.meetup.com/Ember-js-Pittsburgh/events/161140222/)
+
+
+** New Toronto Meetup Group
+------------------------------------------------------------
+
+The Toronto Ember Meetup now has a group on Meetup.com. (http://www.meetup.com/Toronto-Ember-JS-Meetup/)
+
+
+
+------------------------------------------------------------
+
+Reply if you have any feedback.
+
+Thanks for reading.
+Owain
+@owz (http://twitter.com/owz)
+
+Follow @EmberWeekly (https://twitter.com/intent/user?screen_name=EmberWeekly)
+
+
+*|FORWARD|* Forward to Friend (*|FORWARD|*)
+http://twitter.com/?status=*|URL:MC_SUBJECT|*: *|URL:ARCHIVE_LINK|* Tweet (http://twitter.com/?status=*|URL:MC_SUBJECT|*: *|URL:ARCHIVE_LINK|*)
+http://www.facebook.com/sharer/sharer.php?u=*|URL:ARCHIVE_LINK|*&t=*|URL:MC_SUBJECT|* Share (http://www.facebook.com/sharer/sharer.php?u=*|URL:ARCHIVE_LINK|*&t=*|URL:MC_SUBJECT|*)
+http://www.linkedin.com/shareArticle?url=*|URL:ARCHIVE_LINK|*&mini=true&title=*|URL:MC_SUBJECT|* Share (http://www.linkedin.com/shareArticle?url=*|URL:ARCHIVE_LINK|*&mini=true&title=*|URL:MC_SUBJECT|*)
+https://plus.google.com/share?url=*|URL:ARCHIVE_LINK|* +1 (https://plus.google.com/share?url=*|URL:ARCHIVE_LINK|*)
+
+============================================================
+
+** unsubscribe *|EMAIL|* (*|UNSUB|*)
+** update subscription preferences (*|UPDATE_PROFILE|*)
+

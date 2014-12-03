@@ -1,0 +1,214 @@
+Your weekly source of Ember News
+ISSUE #37
+
+Open Web Version (*|ARCHIVE|*)
+
+
+------------------------------------------------------------
+* Featured
+------------------------------------------------------------
+
+
+** What&#x27;s Coming In Ember In 2014
+------------------------------------------------------------
+
+It looks like 2014 is going to be an exciting year for Ember. The blog post covers the discussions and results of the core team&#x27;s face-to-face meeting last week. Highlights include tooling (build tools, modules, inspector, etc), HTMLBars, distributing components, emberdart, and innovative ways to open a beer. (http://emberjs.com/blog/2013/12/17/whats-coming-in-ember-in-2014.html)
+
+
+
+------------------------------------------------------------
+* Releases
+------------------------------------------------------------
+
+
+** Ember 1.3.0 Beta 3 Available
+------------------------------------------------------------
+
+Mainly bug fixes and updated documentation. ([commits](https://github.com/emberjs/ember.js/compare/v1.3.0-beta.2...v1.3.0-beta.3)) (https://github.com/emberjs/ember.js/blob/9985c77f8ddb7fb78bafd36fd6f0fe98ef565351/CHANGELOG.md#ember-130beta3-december-20-2013)
+
+
+** Ember Data 1.0.0 Beta 4 Available
+------------------------------------------------------------
+
+ (https://github.com/emberjs/data/blob/v1.0.0-beta.4/CHANGELOG.md)
+
+
+
+------------------------------------------------------------
+* Reading
+------------------------------------------------------------
+
+
+** ES6 modules and EmberJS: a taste of the future (part 2)
+------------------------------------------------------------
+
+A follow up to [part 1](http://thau.me/2013/12/es6-modules-and-emberjs-a-taste-of-the-future-part-1/) which looked at ES6 modules, this post looks closer at how ES6 modules are used in Ember App Kit (EAK) as well as how EAK can simplify building Ember applications. (http://thau.me/2013/12/es6-modules-and-emberjs-a-taste-of-the-future-part-2/)
+
+
+** Ember Inspector on a Firefox near you
+------------------------------------------------------------
+
+(...or Cross-Browser Add-ons for Fun or Profit). An interesting article where the Ember inspector takes centre stage in a detailed account of porting the Chrome version to Firefox. Learn not only how to write cross-browser extensions but how the Ember Inspector is built. (https://hacks.mozilla.org/2013/12/ember-inspector-on-a-firefox-near-you-2/)
+
+
+** Building an Ember.js App With Firebase
+------------------------------------------------------------
+
+A re-post on the official Firebase blog of Balint Erdi&#x27;s [blog post](http://balinterdi.com/2013/12/11/build-an-ember-dot-js-app-with-firebase.html) on building Ember apps with the official Firebase library, [EmberFire](https://github.com/firebase/emberFire). (https://www.firebase.com/blog/2013-12-16-emberfire-guest-blog.html)
+
+
+** Facebook React vs. Ember
+------------------------------------------------------------
+
+A comparison of creating components with Facebook&#x27;s React and Ember through a series of examples. (http://instructure.github.io/blog/2013/12/17/facebook-react-vs-ember/)
+
+
+** Choosing a JavaScript MVC Framework
+------------------------------------------------------------
+
+A comparison of the major MVC frameworks/libraries including Ember. (http://www.funnyant.com/choosing-javascript-mvc-framework/)
+
+
+** Changing the URL Type of Your Ember.js App
+------------------------------------------------------------
+
+A look at how to make Ember use the History API instead of the hashchange event. (http://balinterdi.com/2013/12/17/change-the-url-type-of-your-ember-app.html)
+
+
+** How To Use History.js With Ember.js
+------------------------------------------------------------
+
+ (http://www.pansapien.com/ember/router/2013/11/how-to-use-history-js-with-ember-js/)
+
+
+
+------------------------------------------------------------
+* Watch/Listen
+------------------------------------------------------------
+
+
+** Warming Up With Ember.js
+------------------------------------------------------------
+
+The first part of the Codeschool Ember turorial is now available, which aims to get you up and running with Ember. (http://ember.codeschool.com/levels/1)
+
+
+** Complex Architectures in Ember
+------------------------------------------------------------
+
+Matthew Beale explains how messages are passed between views, controllers and routes in Ember.js. Also check out Matthew&#x27;s [updated slides](http://madhatted.com/2013/8/31/emberfest-presentation-complex-architectures-in-ember). (http://www.infoq.com/presentations/emberjs-messages-views-controller-router)
+
+
+** Testing Ember.js
+------------------------------------------------------------
+
+A talk from the December Ember London meetup by Jamie White. (http://vimeo.com/81988531)
+
+
+** Fireplace, a Firebase Adapter for Ember.js
+------------------------------------------------------------
+
+A talk from the December Ember London meetup by Richard Livsey. (http://vimeo.com/81960885)
+
+
+** Offline Support with Ember.js
+------------------------------------------------------------
+
+A talk from the December Ember London meetup by Kasper Tidemann. (http://vimeo.com/81960884)
+
+
+** Building a Client-Side With Ember and Rails - Yehuda Katz @ Rails Israel 2013
+------------------------------------------------------------
+
+&quot;In this talk, Yehuda will help you decide when to build an application using Ember.js, and show you how to use the ember-rails gem to turbocharge your development.&quot; (https://www.youtube.com/watch?v=BpQj9_qEUAc)
+
+
+** The relationship between Ember Components and W3C Spec
+------------------------------------------------------------
+
+An introduction to Ember Components - from the December Boston meetup. (https://www.youtube.com/watch?v=W0BU6TH6C-M)
+
+
+** Ember App Kit Rails and Pizza Time App
+------------------------------------------------------------
+
+A talk on using [ember-appkit-rails](https://github.com/dockyard/ember-appkit-rails) to build a simple web app - from the December Boston meetup. (https://www.youtube.com/watch?v=W0BU6TH6C-M#t=2150)
+
+
+** Benchmarking Ember Applications
+------------------------------------------------------------
+
+Alex Navasardyan chats about benchmarking at the December Boston meetup. (https://www.youtube.com/watch?v=HsAp4i0So1s)
+
+
+
+------------------------------------------------------------
+* Code
+------------------------------------------------------------
+
+
+** Introducing Fireplace
+------------------------------------------------------------
+
+[Fireplace](https://github.com/rlivsey/fireplace) is a Firebase library for Ember that is more akin to [Ember Model](https://github.com/ebryn/ember-model) or Ember Data than the official [EmberFire](https://github.com/firebase/emberFire). Also see the video from the December Ember London meetup above. (http://livsey.org/blog/2013/12/13/introducing-fireplace/)
+
+
+** Ember VCRProxy
+------------------------------------------------------------
+
+Record changes to an ObjectProxy and allow them to be stepped through or jumped to. ([demo](http://emberjs.jsbin.com/EJEcoxO/5/edit)) (https://github.com/mixonic/ember-vcr-proxy)
+
+
+** originate-ember-addon
+------------------------------------------------------------
+
+A [loom](https://github.com/rpflorence/loom) origin for Ember add-ons. (https://github.com/rpflorence/originate-ember-addon)
+
+
+** &#x60;&#x60;Em.computed&#x60;&#x60; with a plain old JavaScript Object
+------------------------------------------------------------
+
+You don&#x27;t have to use an &#x60;&#x60;Ember.Object&#x60;&#x60; to take advantage of computed properties. (https://gist.github.com/rjackson/7945867)
+
+
+** Ember.Enumerable groupBy Computed Property
+------------------------------------------------------------
+
+ (http://discuss.emberjs.com/t/ember-enumerable-no-group-by/3594/5)
+
+
+
+------------------------------------------------------------
+* Events
+------------------------------------------------------------
+
+
+** Boston Meetup - Ember.js for Rails Devs
+------------------------------------------------------------
+
+2nd January, 6:00pm @ DockYard. (http://www.meetup.com/Boston-Ember-js/events/152055202/)
+
+
+
+------------------------------------------------------------
+
+Reply if you have any feedback.
+
+Thanks for reading.
+Owain
+@owz (http://twitter.com/owz)
+
+Follow @EmberWeekly (https://twitter.com/intent/user?screen_name=EmberWeekly)
+
+
+*|FORWARD|* Forward to Friend (*|FORWARD|*)
+http://twitter.com/?status=*|URL:MC_SUBJECT|*: *|URL:ARCHIVE_LINK|* Tweet (http://twitter.com/?status=*|URL:MC_SUBJECT|*: *|URL:ARCHIVE_LINK|*)
+http://www.facebook.com/sharer/sharer.php?u=*|URL:ARCHIVE_LINK|*&t=*|URL:MC_SUBJECT|* Share (http://www.facebook.com/sharer/sharer.php?u=*|URL:ARCHIVE_LINK|*&t=*|URL:MC_SUBJECT|*)
+http://www.linkedin.com/shareArticle?url=*|URL:ARCHIVE_LINK|*&mini=true&title=*|URL:MC_SUBJECT|* Share (http://www.linkedin.com/shareArticle?url=*|URL:ARCHIVE_LINK|*&mini=true&title=*|URL:MC_SUBJECT|*)
+https://plus.google.com/share?url=*|URL:ARCHIVE_LINK|* +1 (https://plus.google.com/share?url=*|URL:ARCHIVE_LINK|*)
+
+============================================================
+
+** unsubscribe *|EMAIL|* (*|UNSUB|*)
+** update subscription preferences (*|UPDATE_PROFILE|*)
+

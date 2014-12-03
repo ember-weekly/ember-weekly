@@ -1,0 +1,196 @@
+Your weekly source of Ember News
+ISSUE #41
+
+Open Web Version (*|ARCHIVE|*)
+
+
+------------------------------------------------------------
+* Releases
+------------------------------------------------------------
+
+
+** Security Releases - Ember 1.0.1, 1.1.3, 1.2.1, And 1.3.1
+------------------------------------------------------------
+
+These releases contain fixes for two potential XSS vulnerabilities and it&#x27;s advised that you update your applications immediately. (http://emberjs.com/blog/2014/01/14/ember-security-releases.html)
+
+
+** Ember Data 1.0 Beta 5 Available
+------------------------------------------------------------
+
+As well as various fixes, this release comes with [updated documentation](http://emberjs.com/api/data/). (https://github.com/emberjs/data/blob/v1.0.0-beta.5/CHANGELOG.md)
+
+
+
+------------------------------------------------------------
+* Reading
+------------------------------------------------------------
+
+
+** net tuts: Ember.js Testing
+------------------------------------------------------------
+
+A guide to using Karma and QUnit to unit test your Ember application by Toran Billups. (http://net.tutsplus.com/tutorials/javascript-ajax/ember-js-testing/)
+
+
+** How Real-time Updates Work in Discourse
+------------------------------------------------------------
+
+Balint Erdi looks at how Discourse uses the  message_bus ruby gem to provide real-time updates in the app. (http://balinterdi.com/2014/01/14/how-real-time-updates-work-in-discourse.html)
+
+
+** Ember.js say hello to Apigility
+------------------------------------------------------------
+
+A guide to integrating Ember and [Apigility](http://www.apigility.org/). (http://lab.empirio.no/emberjs-say-hello-to-apigility.html)
+
+
+** Ember App Kit: Mock and proxy requests
+------------------------------------------------------------
+
+Documentation was recently added on the ability to mock and proxy your server request out of the box with Ember App Kit. (http://iamstef.net/ember-app-kit/guides/mock-and-proxy-requests.html)
+
+
+** Client-side File Processing in Ember.js
+------------------------------------------------------------
+
+A look at how to process XML &amp; CSV files in your Ember app instead of uploading them to the server. (http://spin.atomicobject.com/2014/01/15/client-side-file-processing-ember-js/)
+
+
+** A Guide To Testing EmberJS Applications
+------------------------------------------------------------
+
+A collection of articles on testing your Ember Application. (http://codingvalue.com/blog/testing-emberjs-guide/)
+
+
+** Ember and OAuth
+------------------------------------------------------------
+
+A brief tour of OAuth2 and it&#x27;s use with Ember and other Client-side frameworks by Matthew Rudy Jacobs. (https://speakerdeck.com/matthewrudy/ember-and-oauth)
+
+
+** Ember.js - Creating a Custom #link-to Handlebars Helper
+------------------------------------------------------------
+
+ (http://www.thesoftwaresimpleton.com/blog/2014/01/11/custome-link-to/)
+
+
+** Emberjs - Creating a Timeago Helper
+------------------------------------------------------------
+
+ (http://www.thesoftwaresimpleton.com/blog/2014/01/18/timeago-helper/)
+
+
+
+------------------------------------------------------------
+* Code
+------------------------------------------------------------
+
+
+** HTMLBars progress
+------------------------------------------------------------
+
+Early indications are that HTMLBars will bring some nice performance improvements to Ember. (https://twitter.com/ebryn/status/424247675026808832)
+
+
+** Checkbox Toggles
+------------------------------------------------------------
+
+A checkbox list [implementation by Matthew Beale](https://twitter.com/mixonic/status/424368928869998592). (http://emberjs.jsbin.com/EbOZIBa/2/edit)
+
+
+** document.title integration
+------------------------------------------------------------
+
+Alex Matchneer has been working on allowing easy &#x60;&#x60;document.title&#x60;&#x60; integration in Ember. (https://twitter.com/machty/status/422960572301193216)
+
+
+
+------------------------------------------------------------
+* Watch/Listen
+------------------------------------------------------------
+
+
+** Ember.js - An Application Framework For The Future
+------------------------------------------------------------
+
+Joachim Haagen Skeie gives an introduction to Ember. ([source code](https://github.com/joachimhs/WarmCroc-Ember)). (http://vimeo.com/84212104)
+
+
+
+------------------------------------------------------------
+* Events
+------------------------------------------------------------
+
+
+** Ember.js San Francisco
+------------------------------------------------------------
+
+January 2014 Meetup—We&#x27;re Back!. 21st January, 1:30pm @ Microsoft, San Francisco. (http://www.meetup.com/Ember-SF/events/155996392/)
+
+
+** Ember.JS SLC
+------------------------------------------------------------
+
+Ember Run Loop and Testing Ember Apps. 23rd January, 1:30pm @ Instructure, Salt Lake City. (http://www.meetup.com/EmberJS-SLC/events/155678492/)
+
+
+** Ember.js Barcelona
+------------------------------------------------------------
+
+Ember.js BCN Kick off. 23rd January, 1:30pm @ Itnig&#x27;s networking place, Barcelona. (http://www.meetup.com/Ember-js-Barcelona/events/157538792/)
+
+
+** Ember.js NYC
+------------------------------------------------------------
+
+January: Ember Dependency Injection, the Run Loop and more.... 23rd January, 2:00pm @ Pivotal Labs, New York. (http://www.meetup.com/EmberJS-NYC/events/151950262/)
+
+
+** Ember ATX
+------------------------------------------------------------
+
+Ember ATX Meetup. 23rd January, 2:00pm @ The FrontSide, Austin. (http://www.meetup.com/Ember-ATX/events/153953522/)
+
+
+** Ember.Melb.js
+------------------------------------------------------------
+
+January Meet. 28th January, 2:00pm @ York Butter Factory, Melbourne. (http://www.meetup.com/Ember-Melb-JS/events/160672192/)
+
+
+
+------------------------------------------------------------
+* Finally
+------------------------------------------------------------
+
+
+** Ember - the only award-winning JavaScript framework
+------------------------------------------------------------
+
+Yup, Ember was a winner in InfoWorld&#x27;s 2014 Technology of the Year Award. (http://www.infoworld.com/slideshow/135876/infoworlds-2014-technology-of-the-year-award-winners-234225#slide15)
+
+
+
+------------------------------------------------------------
+
+Reply if you have any feedback.
+
+Thanks for reading.
+Owain
+@owz (http://twitter.com/owz)
+
+Follow @EmberWeekly (https://twitter.com/intent/user?screen_name=EmberWeekly)
+
+
+*|FORWARD|* Forward to Friend (*|FORWARD|*)
+http://twitter.com/?status=*|URL:MC_SUBJECT|*: *|URL:ARCHIVE_LINK|* Tweet (http://twitter.com/?status=*|URL:MC_SUBJECT|*: *|URL:ARCHIVE_LINK|*)
+http://www.facebook.com/sharer/sharer.php?u=*|URL:ARCHIVE_LINK|*&t=*|URL:MC_SUBJECT|* Share (http://www.facebook.com/sharer/sharer.php?u=*|URL:ARCHIVE_LINK|*&t=*|URL:MC_SUBJECT|*)
+http://www.linkedin.com/shareArticle?url=*|URL:ARCHIVE_LINK|*&mini=true&title=*|URL:MC_SUBJECT|* Share (http://www.linkedin.com/shareArticle?url=*|URL:ARCHIVE_LINK|*&mini=true&title=*|URL:MC_SUBJECT|*)
+https://plus.google.com/share?url=*|URL:ARCHIVE_LINK|* +1 (https://plus.google.com/share?url=*|URL:ARCHIVE_LINK|*)
+
+============================================================
+
+** unsubscribe *|EMAIL|* (*|UNSUB|*)
+** update subscription preferences (*|UPDATE_PROFILE|*)
+

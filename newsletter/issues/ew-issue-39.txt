@@ -1,0 +1,178 @@
+2013 in Review
+ISSUE #39
+
+Open Web Version (*|ARCHIVE|*)
+
+
+------------------------------------------------------------
+* Featured
+------------------------------------------------------------
+
+
+** EmberConf: March 25/26, Portland, OR
+------------------------------------------------------------
+
+&quot;Join the Ember Core Team along with our top community contributors for two intimate days of non-stop Ember content and friends. Sign up to be notified as soon as tickets go on sale.&quot; (http://emberconf.com/)
+
+
+
+------------------------------------------------------------
+* Popular in 2013
+------------------------------------------------------------
+Some of the most popular posts from last year.
+
+** Backbone, Ember and Angular in a boat
+------------------------------------------------------------
+
+A beautiful presentation comparing Backbone.js, Ember.js &amp; Angular.js. (Slides content are English) (http://loicfrering.github.io/mixit13/)
+
+
+** Organizing Data in Long Lived Applications
+------------------------------------------------------------
+
+Robin Ward looks at how client-side frameworks like Ember can change the way data is requested compared to server-side frameworks and how you may want to model your data differently. (http://eviltrout.com/2013/05/26/organizing-data-in-long-lived-applications.html)
+
+
+** Ember Model - Introduction
+------------------------------------------------------------
+
+An introduction to Erik Bryn&#x27;s [Ember Model](https://github.com/ebryn/ember-model) and how it compares to Ember Data. (http://blog.sensible.io/2013/06/26/ember-model-introduction.html)
+
+
+** 10 Things You Can Do With EPF (That You Can&#x27;t Easily Do With Ember Data)
+------------------------------------------------------------
+
+ (http://codebrief.com/2013/07/10-things-you-can-do-with-epf/)
+
+
+** Complex Architectures in Ember
+------------------------------------------------------------
+
+Matthew Beale slides from last weekend&#x27;s EmberFest in Munich. Includes information on the &#x60;actions&#x60;/&#x60;events&#x60; change that crept in before Ember 1.0. (http://madhatted.com/2013/8/31/emberfest-presentation-complex-architectures-in-ember)
+
+
+** EmberJS :: Beyond the tutorials
+------------------------------------------------------------
+
+Ryan Rauh discusses how he got started with Ember. Some useful tips for beginners. (http://lostechies.com/ryanrauh/2013/10/08/emberjs-beyond-the-tutorials/)
+
+
+** Ember.js Cheat Sheet
+------------------------------------------------------------
+
+Based off the [Em­ber­She­rpa cheatsheet](http://embersherpa.com/cheatsheet/). (http://www.cheatography.com/mwore/cheat-sheets/ember-js/)
+
+
+** Ember 1.0 Released
+------------------------------------------------------------
+
+Two and a half years in the making but we got there. After a [huge push](https://github.com/emberjs/ember.js/issues/3246) by a large number of (awesome) community members and the (tireless) core team, Ember 1.0 was released on the weekend. A huge congratulations to everyone involved, and thank you for all your hard work. Check out the blog post for more information on 1.0 and see the rest of the newsletter for more updates and releases related to 1.0. (http://emberjs.com/blog/2013/08/31/ember-1-0-released.html)
+
+
+** Ember Data: 1.0 Betas by Yehuda Katz
+------------------------------------------------------------
+
+Slides from a talk by Yehuda on the latest Ember Data Betas. (https://docs.google.com/presentation/d/1L9OoQZlP-UuHUvf1YWSoyh9lBbagVeuqlfg4ceuvWOg/edit#slide=id.p)
+
+
+** An In-Depth Introduction To Ember.js
+------------------------------------------------------------
+
+A comprehensive guide to Ember by Julien Knebel on Smashing Magazine. (http://coding.smashingmagazine.com/2013/11/07/an-in-depth-introduction-to-ember-js/)
+
+
+** Mobile Ember Performance
+------------------------------------------------------------
+
+Rob Harper&#x27;s short presentation on how to improve Ember&#x27;s performance on mobile. (http://robharper.github.io/ember-on-mobile/performance.html#/intro)
+
+
+** Backbone or Angular or Ember? Here is my choice and why
+------------------------------------------------------------
+
+Martin Genev goes through his journey of picking an MVC framework, starting with Backbone, moving to Angular and ending up with Ember. (http://www.100percentjs.com/backbone-or-angular-or-ember-here-is-my-choice-and-why/)
+
+
+** Notes on HTMLBars by Yehuda Katz
+------------------------------------------------------------
+
+HTMLBars will be the new templating engine behind Ember in future versions. Yehuda outlines some of the improvements in this gist, including no more metamorph tags (yay!), improved binding syntax, more powerful helpers and sub-expressions. (https://gist.github.com/wycats/8116673)
+
+
+
+------------------------------------------------------------
+* Events
+------------------------------------------------------------
+
+
+** Boston Ember.js Group
+------------------------------------------------------------
+
+Ember.js for Rails Devs. 6th January, 6:00pm @ DockYard, Boston. (http://www.meetup.com/Boston-Ember-js/events/158089072/)
+
+
+** Boston Ember.js Group
+------------------------------------------------------------
+
+Ember.js for Rails Devs. 8th January, 6:00pm @ DockYard, Boston. (http://www.meetup.com/Boston-Ember-js/events/154492032/)
+
+
+** Chicago Ember.js
+------------------------------------------------------------
+
+January Ember.js meetup. 8th January, 6:30pm @ Workbridge Associates, Chicago. (http://www.meetup.com/Chicago-Ember-js/events/155980232/)
+
+
+** Boston Ember.js Group
+------------------------------------------------------------
+
+January 2014 Meetup. 9th January, 6:30pm @ Brightcove, Boston. (http://www.meetup.com/Boston-Ember-js/events/155308152/)
+
+
+** Ember Twin Cities
+------------------------------------------------------------
+
+First Meetup - Intro to Ember. 9th January, 6:30pm @ Tightrope Media Systems, St. Paul. (http://www.meetup.com/Ember-Twin-Cities/events/152633082/)
+
+
+** EmberJS-Paris
+------------------------------------------------------------
+
+7em meetup EmberJS Paris. 9th January, 7:30pm @ Mozilla Paris, Paris. (http://www.meetup.com/EmberJS-Paris/events/157976072/)
+
+
+** Toronto Meetup
+------------------------------------------------------------
+
+9th January, 7:00pm @ Pharmacy, Toronto. (http://www.torontoemberjs.com/)
+
+
+** New: Portland Meetup
+------------------------------------------------------------
+
+14th January, 6:30pm @ Tilde Inc, Portland. (http://www.meetup.com/Ember-PDX/events/156000292/)
+
+
+
+------------------------------------------------------------
+
+Reply if you have any feedback.
+
+Thanks for reading.
+Owain
+@owz (http://twitter.com/owz)
+
+Follow @EmberWeekly (https://twitter.com/intent/user?screen_name=EmberWeekly)
+
+
+*|FORWARD|* Forward to Friend (*|FORWARD|*)
+http://twitter.com/?status=*|URL:MC_SUBJECT|*: *|URL:ARCHIVE_LINK|* Tweet (http://twitter.com/?status=*|URL:MC_SUBJECT|*: *|URL:ARCHIVE_LINK|*)
+http://www.facebook.com/sharer/sharer.php?u=*|URL:ARCHIVE_LINK|*&t=*|URL:MC_SUBJECT|* Share (http://www.facebook.com/sharer/sharer.php?u=*|URL:ARCHIVE_LINK|*&t=*|URL:MC_SUBJECT|*)
+http://www.linkedin.com/shareArticle?url=*|URL:ARCHIVE_LINK|*&mini=true&title=*|URL:MC_SUBJECT|* Share (http://www.linkedin.com/shareArticle?url=*|URL:ARCHIVE_LINK|*&mini=true&title=*|URL:MC_SUBJECT|*)
+https://plus.google.com/share?url=*|URL:ARCHIVE_LINK|* +1 (https://plus.google.com/share?url=*|URL:ARCHIVE_LINK|*)
+
+============================================================
+
+** unsubscribe *|EMAIL|* (*|UNSUB|*)
+** update subscription preferences (*|UPDATE_PROFILE|*)
+

@@ -1,0 +1,154 @@
+Your weekly source of Ember News
+ISSUE #47
+
+Open Web Version (*|ARCHIVE|*)
+
+
+------------------------------------------------------------
+* Featured
+------------------------------------------------------------
+
+
+** Ember and the future of the web
+------------------------------------------------------------
+
+An excellent write-up by Brandon Hays on how web development is changing and frameworks like Ember are positioned to turn the browser in to a real application runtime. Well worth a read. (http://frontside.io/blog/2014/02/24/ember-and-the-future-of-the-web.html)
+
+
+** Ghost: &quot;Hello Ember&quot;
+------------------------------------------------------------
+
+The popular Open Source Blogging Platform, Ghost, will re-write their Backbone Admin UI using Ember. After [much discussion in the OS community](https://github.com/TryGhost/Ghost/issues/2144), the Ghost team explain why they chose Ember over Angular, React and Backbone + Marionette. (http://dev.ghost.org/hello-ember/)
+
+
+
+------------------------------------------------------------
+* Reading
+------------------------------------------------------------
+
+
+** Core Team Meeting Minutes - 2014/02/21
+------------------------------------------------------------
+
+Topics covered: Old Stack Overflow questions &amp; Es6ifying core. Pending Features: &#x60;&#x60;ember-testing-simple-setup&#x60;&#x60; = revert, &#x60;&#x60;query-params-new&#x60;&#x60; = not ready.  (http://emberjs.com/blog/2014/02/23/core-team-meeting-minutes-2014-02-21.html)
+
+
+** Getting started with Broccoli and Ember.js
+------------------------------------------------------------
+
+A walkthrough getting an Ember project up and building with the new Broccoli build tool. (http://ampersate.com/getting-started-with-broccoli-and-emberjs)
+
+
+** A Common Resource Route Pattern in Ember.js
+------------------------------------------------------------
+
+A look at how to DRY up your routes setup in certain use cases. (http://balinterdi.com/2014/02/26/a-common-resource-route-pattern-in-ember-dot-js.html)
+
+
+** Know your routes in Ember.js
+------------------------------------------------------------
+
+A post which illustrates the difference between the &#x60;&#x60;Application&#x60;&#x60; route and the &#x60;&#x60;ApplicationIndex&#x60;&#x60; route through a redirect example. (http://ugisozols.com/blog/2014/02/25/know-your-routes-in-emberjs/)
+
+
+** Deploy an Ember.js App on Heroku
+------------------------------------------------------------
+
+An example of how to deploy an Ember application to Heroku using Node.js &amp; Express to server the app. (http://nepalonrails.com/blog/2014/03/deploy-emberjs-app-on-heroku/)
+
+
+** Ember.js with a Separate Rails API
+------------------------------------------------------------
+
+This post shares thoughtbot&#x27;s experiences building an Ember application using Rails as the server-side API and a Rails project to manage the Ember app. (http://robots.thoughtbot.com/emberjs-with-a-separate-rails-api)
+
+
+** Cross-browser AJAX uploads with Ember.js and mOxie
+------------------------------------------------------------
+
+A guide to using the mOxie library to support cross-browser uploads. ([demo](http://scribu.github.io/ember-moxie-demo/)) (http://scribu.net/blog/cross-browser-uploads-ember-moxie.html)
+
+
+
+------------------------------------------------------------
+* Code
+------------------------------------------------------------
+
+
+** Broccoli Plugins
+------------------------------------------------------------
+
+Although still in its infancy, many have already jumped on the new &quot;build tool&quot; by Jo Liss creating a load of plugins. Broccoli is set to be part of the future [Ember CLI tool](https://github.com/stefanpenner/ember-cli). (https://github.com/joliss/broccoli#plugins)
+
+
+** ember-devise-simple-auth
+------------------------------------------------------------
+
+A plugin to integrate your Ember app with a (mostly stock) Devise setup (https://github.com/d-i/ember-devise-simple-auth)
+
+
+
+------------------------------------------------------------
+* Watch/Listen
+------------------------------------------------------------
+
+
+** EmberDumps.com Lives!
+------------------------------------------------------------
+
+You can now find previously featured EmberDump videos by Alex Matchneer &amp; Cory Forsyth in one location. (http://emberdumps.com/)
+
+
+** Getting Started with ember-rails-template
+------------------------------------------------------------
+
+A screencast on using [ember-rails-template](https://github.com/mrinterweb/ember-rails-template) - a Rails template to help configure a Rails project with &#x60;&#x60;ember-rails&#x60;&#x60;.  (https://www.youtube.com/watch?v=KaBbGUVQrAw)
+
+
+
+------------------------------------------------------------
+* Events
+------------------------------------------------------------
+
+
+** Ember.js Seattle
+------------------------------------------------------------
+
+Ember and NBC News. 6th March, 6:30pm @ Columbia Center, Seattle. (http://www.meetup.com/Ember-js-Seattle-Meetup/events/166977452/)
+
+
+** Saint Louis Ember.js
+------------------------------------------------------------
+
+6th March, 7:00pm @ Second Street, Saint Louis. (http://www.meetup.com/STLEmber/events/159912472/)
+
+
+** NEW: Ember.js Tokyo
+------------------------------------------------------------
+
+A brand new Ember meetup in Tokyo, Japan - 18th March, 7:00pm. (http://emberjs.doorkeeper.jp/events/9196)
+
+
+
+------------------------------------------------------------
+
+Reply if you have any feedback.
+
+Thanks for reading.
+Owain
+@owz (http://twitter.com/owz)
+
+Follow @EmberWeekly (https://twitter.com/intent/user?screen_name=EmberWeekly)
+
+
+*|FORWARD|* Forward to Friend (*|FORWARD|*)
+http://twitter.com/?status=*|URL:MC_SUBJECT|*: *|URL:ARCHIVE_LINK|* Tweet (http://twitter.com/?status=*|URL:MC_SUBJECT|*: *|URL:ARCHIVE_LINK|*)
+http://www.facebook.com/sharer/sharer.php?u=*|URL:ARCHIVE_LINK|*&t=*|URL:MC_SUBJECT|* Share (http://www.facebook.com/sharer/sharer.php?u=*|URL:ARCHIVE_LINK|*&t=*|URL:MC_SUBJECT|*)
+http://www.linkedin.com/shareArticle?url=*|URL:ARCHIVE_LINK|*&mini=true&title=*|URL:MC_SUBJECT|* Share (http://www.linkedin.com/shareArticle?url=*|URL:ARCHIVE_LINK|*&mini=true&title=*|URL:MC_SUBJECT|*)
+https://plus.google.com/share?url=*|URL:ARCHIVE_LINK|* +1 (https://plus.google.com/share?url=*|URL:ARCHIVE_LINK|*)
+
+============================================================
+
+** unsubscribe *|EMAIL|* (*|UNSUB|*)
+** update subscription preferences (*|UPDATE_PROFILE|*)
+

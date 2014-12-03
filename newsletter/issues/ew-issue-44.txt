@@ -1,0 +1,274 @@
+Your weekly source of Ember News
+ISSUE #44
+
+Open Web Version (*|ARCHIVE|*)
+
+
+------------------------------------------------------------
+* Releases
+------------------------------------------------------------
+
+
+** Security Releases - Ember 1.2.2, And 1.3.2
+------------------------------------------------------------
+
+These releases contain the fix for an XSS vulnerability that you can learn more about on our security mailing list: [CVE-2014-0046](https://groups.google.com/forum/#!topic/ember-security/1h6FRgr8lXQ). (http://emberjs.com/blog/2014/02/07/ember-security-releases.html)
+
+
+
+------------------------------------------------------------
+* Featured
+------------------------------------------------------------
+
+
+** Ember Fest 2014 Call for Speakers
+------------------------------------------------------------
+
+Ember Fest is back! This time in Barcelona on 26th-29th August and the Call for Speakers is now open. (https://emberfest.eu/talks)
+
+
+
+------------------------------------------------------------
+* Reading
+------------------------------------------------------------
+
+
+** Angular, Ember, And Backbone: Which JavaScript Framework Is Right For You?
+------------------------------------------------------------
+
+&quot;Picking a Javascript framework isn&#x27;t about preference. It&#x27;s about what best fits your project&quot;. A look at what each framework is best suited for. (http://readwrite.com/2014/02/06/angular-backbone-ember-best-javascript-framework-for-you#awesm=~ovoQLo4ChBuz1C)
+
+
+** Ember.js - arrayComputed
+------------------------------------------------------------
+
+A detailed look at the array based computed properties recently added to Ember, and how they can improve your array computations.  (http://www.thesoftwaresimpleton.com/blog/2014/02/04/array-computed/)
+
+
+** Query Params in Ember.js
+------------------------------------------------------------
+
+Slides for Taras Mankovski&#x27;s talk at the Toronto February meetup. (http://embersherpa.github.io/query-params-presentation/slides.html#1)
+
+
+** Testing Ember Apps With Cucumber
+------------------------------------------------------------
+
+Slides for Alaina Hardie&#x27;s talk at the Toronto February meetup. (http://trianglegrrl.github.io/ember-cucumber-pres/#/)
+
+
+** Building an App for My Mom With Ember Appkit Rails
+------------------------------------------------------------
+
+Adolfo Builes kick-starts a project with Ember Appkit Rails. (http://blog.abuiles.com/blog/2014/02/07/building-an-app-for-my-mom-with-ember-appkit-rails/)
+
+
+** Using Ember.js with Spree
+------------------------------------------------------------
+
+Matteo Latini walks through integrating Ember.js with a Spree E-commerce application. (http://nebulab.it/blog/using-ember-js-with-spree)
+
+
+** HTML-safe strings in Handlebars
+------------------------------------------------------------
+
+ (http://www.kaspertidemann.com/html-safe-strings-in-handlebars/)
+
+
+** Convert a View Into a Component
+------------------------------------------------------------
+
+ (http://balinterdi.com/2014/02/05/convert-a-view-into-a-component.html)
+
+
+** Generating Files with JavaScript and Ember.js
+------------------------------------------------------------
+
+ (http://spin.atomicobject.com/2014/02/05/generate-files-javascript-ember-js/)
+
+
+** Rapid Ember.js App Development Workflow
+------------------------------------------------------------
+
+ (http://nepalonrails.com/blog/2014/02/rapid-emberjs-app-development-workflow/)
+
+
+
+------------------------------------------------------------
+* Promoted
+------------------------------------------------------------
+
+
+** Ember for Rails Devs
+------------------------------------------------------------
+
+We invite you to learn from DockYard for a day before Ember Conf in Portland, Oregon. We will be offering a one day training session for Ruby on Rails developers interested in learning how to build Ember Applications. (http://reefpoints.dockyard.com/2014/02/04/ember-conf-ember-for-rails-devs.html)
+
+
+
+------------------------------------------------------------
+* Code
+------------------------------------------------------------
+
+
+** Updated Ember ToDoMVC
+------------------------------------------------------------
+
+The Ember ToDoMVC example has been updated by Cory Forsyth and Matthew Beale to be more idiomatic and to use the latest versions of Ember &amp; Ember Data. (https://github.com/tastejs/todomvc/pull/822)
+
+
+** ember-indexeddb-adapter
+------------------------------------------------------------
+
+Allows you to store your Ember application data offline with IndexedDB. Updated for the latest Ember Data. (https://github.com/kurko/ember-indexeddb-adapter)
+
+
+** lineman-ember-template
+------------------------------------------------------------
+
+A little example that pulls lineman &amp; ember together. (https://github.com/linemanjs/lineman-ember-template)
+
+
+** Ember Watch: Open Source Projects Page
+------------------------------------------------------------
+
+Ember Watch has launched a new page listing open source Ember projects. Know of any not listed? Make sure you submit them. (http://emberwatch.com/open_source.html)
+
+
+
+------------------------------------------------------------
+* Watch/Listen
+------------------------------------------------------------
+
+
+** Ember.js: Animated If Statement
+------------------------------------------------------------
+
+Alex Matchneer shows how to animate a UI element using a custom animated if component. (https://www.youtube.com/watch?v=aFZ-b3pEK_Y)
+
+
+** Ember Live Coding Session with Eric Berry
+------------------------------------------------------------
+
+Eric walks through re-writing an Angular app to fetch RailsCasts videos with Ember using tapas-with-ember. (https://www.youtube.com/watch?v=4mSp1K7KUGE)
+
+
+** Ember App Kit Rails - Brian Cardarella
+------------------------------------------------------------
+
+Brian Cardarella talks about Ember App Kit Rails which provides Rails developers with a comfortable development environment for Ember.js in Rails. (https://www.youtube.com/watch?v=sYX0qPuwJi4)
+
+
+** HTMLBars Update - Alex Matchneer
+------------------------------------------------------------
+
+An update on the status of HTMLBars from core team member Alex Matchneer, from the Ember.js NYC January Meetup. (https://www.youtube.com/watch?v=iCZUKFNXA0k#t=2116)
+
+
+** Ember Inspector - Stefan Penner
+------------------------------------------------------------
+
+An introduction to the Ember Inspector at the Ember.js NYC January Meetup. (https://www.youtube.com/watch?v=iCZUKFNXA0k#t=1538)
+
+
+** Containers and Dependency Injection in Ember.js - Matthew Beale
+------------------------------------------------------------
+
+Learn how to use Ember’s container and dependency features to move beyond MVC, as well as learning how they tie Ember internals together. ([slides](http://www.slideshare.net/mixonic/containers-di)) (https://www.youtube.com/watch?v=iCZUKFNXA0k#t=6241)
+
+
+** Buffered Proxy - Kristofor Selden 
+------------------------------------------------------------
+
+Kristofor Selden presents Buffered Proxy at Ember NYC, and how it&#x27;s used to allow discardable model changes. ([code](https://gist.github.com/lukemelia/5632776)) (https://www.youtube.com/watch?v=FXMQ0gjIN70)
+
+
+** Building Realtime Apps with Firebase and Ember.js - Sara Robinson
+------------------------------------------------------------
+
+ (https://www.youtube.com/watch?v=iCZUKFNXA0k#t=5418)
+
+
+** Ember Run Loop - Brendan Briggs
+------------------------------------------------------------
+
+ (https://www.youtube.com/watch?v=iCZUKFNXA0k#t=3291)
+
+
+
+------------------------------------------------------------
+* Events
+------------------------------------------------------------
+
+
+** Ember.js Adelaide
+------------------------------------------------------------
+
+Ember.js Workshop for Beginners. 11th February, 6:00pm @ Katalyst Interactive, Adelaide. (http://www.meetup.com/Ember-js-Adelaide/events/160600092/)
+
+
+** London Ember.js User Group
+------------------------------------------------------------
+
+12th February, 6:30pm @ SapientNitro, London. (http://www.meetup.com/London-Emberjs-User-Group/events/161526872/)
+
+
+** Boston Ember.js Group
+------------------------------------------------------------
+
+Lightning Talks. 13th February, 6:30pm @ Brightcove, Boston. (http://www.meetup.com/Boston-Ember-js/events/159835752/)
+
+
+** Ember Twin Cities
+------------------------------------------------------------
+
+Lightning Talks &amp; Ember.js Hacking. 13th February, 6:30pm @ Tightrope Media Systems, St. Paul, MN. (http://www.meetup.com/EmberMN/events/159811162/)
+
+
+** Ember Hacker Hours - Toronto
+------------------------------------------------------------
+
+The hacker hours is a night to work on your code with a peer. Bring your code, hack together and learn. 13th February, 7:00pm @ Quandl Office, Toronto, ON. (http://www.meetup.com/Ember-Hack-Night/events/164114302/)
+
+
+** Suncoast.js - Saint Petersburg, FL
+------------------------------------------------------------
+
+Warm Up: An Intro to Ember.js with Robert Jackson. 19th February, 7:00pm @ Tampa Bay WaVE, Saint Petersburg, FL. (http://www.meetup.com/suncoast-js/events/161548572/)
+
+
+
+------------------------------------------------------------
+* Finally
+------------------------------------------------------------
+
+
+** New NBCNews.com uses Ember
+------------------------------------------------------------
+
+The new version of NBC News is built using Ember. Check it out using the Ember Inspector. (http://www.nbcnews.com/)
+
+
+
+------------------------------------------------------------
+
+Reply if you have any feedback.
+
+Thanks for reading.
+Owain
+@owz (http://twitter.com/owz)
+
+Follow @EmberWeekly (https://twitter.com/intent/user?screen_name=EmberWeekly)
+
+
+*|FORWARD|* Forward to Friend (*|FORWARD|*)
+http://twitter.com/?status=*|URL:MC_SUBJECT|*: *|URL:ARCHIVE_LINK|* Tweet (http://twitter.com/?status=*|URL:MC_SUBJECT|*: *|URL:ARCHIVE_LINK|*)
+http://www.facebook.com/sharer/sharer.php?u=*|URL:ARCHIVE_LINK|*&t=*|URL:MC_SUBJECT|* Share (http://www.facebook.com/sharer/sharer.php?u=*|URL:ARCHIVE_LINK|*&t=*|URL:MC_SUBJECT|*)
+http://www.linkedin.com/shareArticle?url=*|URL:ARCHIVE_LINK|*&mini=true&title=*|URL:MC_SUBJECT|* Share (http://www.linkedin.com/shareArticle?url=*|URL:ARCHIVE_LINK|*&mini=true&title=*|URL:MC_SUBJECT|*)
+https://plus.google.com/share?url=*|URL:ARCHIVE_LINK|* +1 (https://plus.google.com/share?url=*|URL:ARCHIVE_LINK|*)
+
+============================================================
+
+** unsubscribe *|EMAIL|* (*|UNSUB|*)
+** update subscription preferences (*|UPDATE_PROFILE|*)
+

@@ -1,0 +1,178 @@
+Your weekly source of Ember News
+ISSUE #43
+
+Open Web Version (*|ARCHIVE|*)
+
+
+------------------------------------------------------------
+* Featured
+------------------------------------------------------------
+
+
+** Vote Ember for Open Source Project of the Year!
+------------------------------------------------------------
+
+Show your support for Ember and the team&#x27;s hard work in 2013 by taking less than 1 minute to vote for it in the .net awards. (https://thenetawards.com/vote/open-source/emberjs/)
+
+
+
+------------------------------------------------------------
+* Releases
+------------------------------------------------------------
+
+
+** Ember 1.0.0 Beta 6 Available
+------------------------------------------------------------
+
+Contains a fix for Ember App Kit based apps to allow resolving serializers and adapters properly. It&#x27;s also worth noting that Ember Data master now uses [ES6 modules and JavaScript build tools](https://github.com/emberjs/data/pull/1623) (no more ruby dependency). (http://emberjs.com/builds/#/beta)
+
+
+** Ember 1.4 Beta 4 Available
+------------------------------------------------------------
+
+Contains various bug fixes. (https://github.com/emberjs/ember.js/blob/v1.4.0-beta.4/CHANGELOG.md)
+
+
+
+------------------------------------------------------------
+* Reading
+------------------------------------------------------------
+
+
+** A Guide to Building Your First Ember.js App
+------------------------------------------------------------
+
+A nice introduction to Ember by Balint Erdi, with a walkthrough of how to build a Rock &amp; Roll app. (http://www.toptal.com/javascript/a-step-by-step-guide-to-building-your-first-ember-js-app)
+
+
+** Our Ember.js Toolchain
+------------------------------------------------------------
+
+A look at how NebuLab develop Ember applications with Brunch, tapas-with-ember, Rails, and dyson (to fake an API). (http://nebulab.it/blog/our-ember-js-toolchain)
+
+
+** Tip: Golang with Ember.js - JSON Response
+------------------------------------------------------------
+
+A short summary of building a Ember app with Go and the Martini framework. (http://dukex.svbtle.com/tip-golang-with-emberjs-json-response)
+
+
+** Execute bad ideas: Ruby on Rails → node.js/ember
+------------------------------------------------------------
+
+An amusing story of how Ember was used to improve the UX of this &quot;bad idea&quot;. (https://medium.com/p/bd4ec4e352b2)
+
+
+** Ruby on Rails MVC Is Not the Same as Ember.js MVC
+------------------------------------------------------------
+
+A breakdown of the difference in MVC implementations from Yehuda Katz&#x27;s talk, [A tale of two MVC’s](http://www.youtube.com/watch?v=s1dhXamEAKQ). (http://blog.abuiles.com/blog/2014/01/27/ruby-on-rails-mvc-is-not-the-same-as-ember-dot-js-mvc/)
+
+
+** Getting Started With Ember.js and Ruby on Rails: Ember Appkit Rails
+------------------------------------------------------------
+
+ (http://blog.abuiles.com/blog/2014/01/31/getting-started-with-ember-and-ruby-on-rails-using-ember-appkit-rails/)
+
+
+
+------------------------------------------------------------
+* Code
+------------------------------------------------------------
+
+
+** Ember.js + Firebase = &lt;3
+------------------------------------------------------------
+
+An introduction post to ember-firebase, a new unofficial firebase library with tight integration with Ember bindings ([code](https://github.com/mjijackson/ember-firebase)). (https://github.com/mjijackson/ember-firebase)
+
+
+** Improved Test Helpers in Ember App Kit
+------------------------------------------------------------
+
+Stefan Penner has added some new test helpers into Ember App Kit that should simplify writing tests, especially async and component tests. (https://github.com/stefanpenner/ember-app-kit/pull/452)
+
+
+
+------------------------------------------------------------
+* Watch/Listen
+------------------------------------------------------------
+
+
+** Ember Hot Seat Episode 13: Erik Bryn
+------------------------------------------------------------
+
+Back after a holiday hiatus, core team member Erik Bryn is in the Hot Seat. He discusses HTMLBars, React, upgrading Zendesk to Ember v1.x and Ember Testing. (http://emberhotseat.com/2014/01/29/ember-hot-seat-episode-013.html)
+
+
+
+------------------------------------------------------------
+* Events
+------------------------------------------------------------
+
+
+** STL Ember.js
+------------------------------------------------------------
+
+First Monthly Ember.js Meetup: Getting to know you, Getting to know Ember too!. 6th February, 7:00pm @ Second Street, Saint Louis. (http://www.meetup.com/STLEmber/events/159285352/)
+
+
+** Ember.js Adelaide
+------------------------------------------------------------
+
+Ember.js Workshop for Beginners. 11th February, 6:00pm @ Katalyst Interactive, Adelaide. (http://www.meetup.com/Ember-js-Adelaide/events/160600092/)
+
+
+** London Ember.js User Group
+------------------------------------------------------------
+
+12th February, 6:30pm @ SapientNitro, London. (http://www.meetup.com/London-Emberjs-User-Group/events/161526872/)
+
+
+** Boston Ember.js Group
+------------------------------------------------------------
+
+Lightning Talks! 13th February, 6:30pm @ Brightcove, Boston. (http://www.meetup.com/Boston-Ember-js/events/159835752/)
+
+
+** EmberMN
+------------------------------------------------------------
+
+13th February, 6:30pm @ Tightrope Media Systems, St. Paul. (http://www.meetup.com/EmberMN/events/159811162/)
+
+
+
+------------------------------------------------------------
+* Finally
+------------------------------------------------------------
+
+
+** nov-ember-rain
+------------------------------------------------------------
+
+An Ember component for create a falling rain effect. Or maybe you&#x27;d prefer [purple-ember-rain](http://emberjs.jsbin.com/ilUneQi/17) if you&#x27;re more of a Prince person. (http://emberjs.jsbin.com/ilUneQi/14)
+
+
+
+------------------------------------------------------------
+
+Reply if you have any feedback.
+
+Thanks for reading.
+Owain
+@owz (http://twitter.com/owz)
+
+Follow @EmberWeekly (https://twitter.com/intent/user?screen_name=EmberWeekly)
+
+
+*|FORWARD|* Forward to Friend (*|FORWARD|*)
+http://twitter.com/?status=*|URL:MC_SUBJECT|*: *|URL:ARCHIVE_LINK|* Tweet (http://twitter.com/?status=*|URL:MC_SUBJECT|*: *|URL:ARCHIVE_LINK|*)
+http://www.facebook.com/sharer/sharer.php?u=*|URL:ARCHIVE_LINK|*&t=*|URL:MC_SUBJECT|* Share (http://www.facebook.com/sharer/sharer.php?u=*|URL:ARCHIVE_LINK|*&t=*|URL:MC_SUBJECT|*)
+http://www.linkedin.com/shareArticle?url=*|URL:ARCHIVE_LINK|*&mini=true&title=*|URL:MC_SUBJECT|* Share (http://www.linkedin.com/shareArticle?url=*|URL:ARCHIVE_LINK|*&mini=true&title=*|URL:MC_SUBJECT|*)
+https://plus.google.com/share?url=*|URL:ARCHIVE_LINK|* +1 (https://plus.google.com/share?url=*|URL:ARCHIVE_LINK|*)
+
+============================================================
+
+** unsubscribe *|EMAIL|* (*|UNSUB|*)
+** update subscription preferences (*|UPDATE_PROFILE|*)
+

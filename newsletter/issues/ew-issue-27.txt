@@ -1,0 +1,274 @@
+Your weekly source of Ember News
+ISSUE #27
+
+Open Web Version (*|ARCHIVE|*)
+
+
+------------------------------------------------------------
+* Releases
+------------------------------------------------------------
+
+
+** Ember 1.1.0 Beta 3 Released
+------------------------------------------------------------
+
+Mainly bug fixes in this release. (http://emberjs.com/builds/#/beta/latest)
+
+
+
+------------------------------------------------------------
+* Reading
+------------------------------------------------------------
+
+
+** Embereños: Alex Speller - Digital Science
+------------------------------------------------------------
+
+Weekly interviews with companies and people using ember. This week&#x27;s interview is with Alex Speller, who you may recognize from recent query-parameter support Pull Requests. (http://emberenos.com/interviews/2013/10/9/alex-speller-digital-science)
+
+
+** Ember.js Concepts for Rails Developers
+------------------------------------------------------------
+
+ (http://matthewlehner.net/ember-js-concepts-for-rails-devs/)
+
+
+** Loading Route Facelift
+------------------------------------------------------------
+
+Alex Matchneer outlines a proposal to improve the router loading states. See [his example](http://jsbin.com/ucanam/1399#/foo/bar/woot) of sub-route loading states. (http://discuss.emberjs.com/t/proposal-nested-loading-routes/2895)
+
+
+** EmberJS :: Beyond the tutorials
+------------------------------------------------------------
+
+Ryan Rauh discusses how he got started with Ember. Some useful tips for beginners. (http://lostechies.com/ryanrauh/2013/10/08/emberjs-beyond-the-tutorials/)
+
+
+
+------------------------------------------------------------
+* Promoted
+------------------------------------------------------------
+
+
+** JavaScript SEO: Can Google read javascript websites?
+------------------------------------------------------------
+
+Find out how to make your Ember.js website visible to Google. (http://www.brombone.com/)
+
+
+
+------------------------------------------------------------
+* Watch/Listen
+------------------------------------------------------------
+
+
+** Ember NYC September Meetup Video
+------------------------------------------------------------
+
+The video includes an outline of [Ember&#x27;s post 1.0 roadmap](http://www.youtube.com/watch?v=lWgzN5vGxco#t=6300) by Kristofor Selden, [Complex Architectures in Ember](http://www.youtube.com/watch?v=lWgzN5vGxco#t=433) by Matthew Beale and a few other lightening talks. (http://www.youtube.com/watch?v=lWgzN5vGxco&amp;feature=youtu.be)
+
+
+** A comparison of the two-way binding in AngularJS, EmberJS and KnockoutJS
+------------------------------------------------------------
+
+Marius Gundersen provides a nice walkthrough of how each of the 3 frameworks tackle two-bindings along with the pros &amp; cons of each technique. (http://2013.jsconf.eu/speakers/marius-gundersen-a-comparison-of-the-twoway-binding-in-angularjs-emberjs-and-knockoutjs.html)
+
+
+** MHE Labs Boston Summit: Ember Components
+------------------------------------------------------------
+
+Alex Matchneer&#x27;s presentation on Ember Components. (http://www.youtube.com/watch?v=YrJ130ScG-A)
+
+
+** Tom Dale: Stop Breaking the Web (JSConf EU 2013)
+------------------------------------------------------------
+
+ (http://www.youtube.com/watch?v=OSEXpsVcTxI)
+
+
+
+------------------------------------------------------------
+* Testing
+------------------------------------------------------------
+
+
+** HTTP Mocking in Ember Testing
+------------------------------------------------------------
+
+Based on last week&#x27;s&#x27; discussions, Trek Glowacki has put together 3 libraries to assist with HTTP mocking: [fakehr](https://github.com/trek/fakehr), [FakeXMLHttpRequest](https://github.com/trek/FakeXMLHttpRequest) and [ember-testing-httpRespond](https://github.com/trek/ember-testing-httpRespond). (http://discuss.emberjs.com/t/http-mocking-for-ember-testing/2846/16)
+
+
+** Guide: When and how to handle asynchronous side-effects in testing?
+------------------------------------------------------------
+
+ (http://discuss.emberjs.com/t/guide-when-and-how-to-handle-asynchronous-side-effects-in-testing/2905)
+
+
+** Unchained Async Helpers in Ember-Testing
+------------------------------------------------------------
+
+Teddy Zeenny has been busy improving the ember-testing package. (https://github.com/emberjs/ember.js/pull/3557)
+
+
+
+------------------------------------------------------------
+* Code
+------------------------------------------------------------
+
+
+** Ember Simple Auth
+------------------------------------------------------------
+
+A lightweight and unobtrusive library for implementing token based authentication in Ember.js applications. It&#x27;s covered more in [this blog post](http://log.simplabs.com/post/63565686488/ember-simpleauth). (https://github.com/simplabs/ember-simple-auth)
+
+
+** Ember-Data Elasticsearch Kit
+------------------------------------------------------------
+
+A Ember-Data adapter for Elasticsearch (https://github.com/roundscope/ember-data-elasticsearch-kit)
+
+
+** Ember Auto
+------------------------------------------------------------
+
+Nicer computed properties - less this.get(&#x27;myField&#x27;). Also see [forum discussion](http://discuss.emberjs.com/t/ember-auto-nicer-properties-with-less-this-get-junk/2896). (https://github.com/gunn/ember-auto)
+
+
+** Comparing an avatar implementation with Angular and Ember
+------------------------------------------------------------
+
+ (https://gist.github.com/rpflorence/6833014/)
+
+
+** Ember CouchDB Kit
+------------------------------------------------------------
+
+An Ember.js adapter for Apache CouchDB. ([demo](http://jsfiddle.net/nLMwt/16/)) (https://github.com/roundscope/ember-couchdb-kit)
+
+
+** ember.vim
+------------------------------------------------------------
+
+Vim plugin for the Emberjs frontend framework. (https://github.com/dsawardekar/ember.vim)
+
+
+
+------------------------------------------------------------
+* Jobs
+------------------------------------------------------------
+
+
+** Full Stack Web Developer near Washington, DC
+------------------------------------------------------------
+
+We need a great coder with Ember.js/Angular.js, Git, HTML5 w/ old browsers, Python, Django, Postgres, Heroku, responsive web design, and good communication skills. iPad iOS development a plus. [contact us](mailto:jace.wieser@phase5group.com?Subject=Full%20Stack%20Web%20Developer%20-%20Ember%20Weekly%20Job%20Posting) (http://discuss.emberjs.com/t/full-stack-web-developer-near-washington-dc-needed/2876)
+
+
+** Lead the Hospitality Industry developing mobile software with Ember.js
+------------------------------------------------------------
+
+We are looking for experienced front end developers in Los Angeles, CA. If you are always striving to learn new technologies like Ember.js and enjoy spending time on mobile applications, then help us lead the Hospitality Industry with cutting edge mobile technology. (http://careers.stackoverflow.com/jobs/40654/)
+
+
+
+------------------------------------------------------------
+* Events
+------------------------------------------------------------
+
+
+** Toronto Hack Night
+------------------------------------------------------------
+
+10th October, 6:00pm @ INcubes. (http://guestlistapp.com/events/198975)
+
+
+** São Paulo, Brazil Meetup
+------------------------------------------------------------
+
+10th October, 7:00pm. (http://www.meetup.com/Ember-js-Sao-Paulo/events/142350582/)
+
+
+** Tel Aviv-Yafo Meetup, Featuring Yehuda Katz
+------------------------------------------------------------
+
+10th October, 4:30pm @ Ozen Bar. Featuring special guest Yehuda Katz! (http://www.meetup.com/Ember-IL/events/140297932/)
+
+
+** Boston Meetup
+------------------------------------------------------------
+
+10th October, 6:30pm @ DockYard. (http://www.meetup.com/Boston-Ember-js/events/140201892/)
+
+
+** Seattle Meetup with Alex Matchneer
+------------------------------------------------------------
+
+10th October, 6:30pm @ Urbanspoon. New Core Team Alex Matchneer will be present. (http://www.meetup.com/Ember-js-Seattle-Meetup/events/140660072/)
+
+
+** Austin Meetup with Tom Dale
+------------------------------------------------------------
+
+15th October, 7:30pm @ Frog Design. Special Event with Tom Dale. (http://www.meetup.com/Ember-ATX/events/140780512/)
+
+
+** San Francisco Meetup
+------------------------------------------------------------
+
+15th October, 6:30pm @ Blurb. (http://www.meetup.com/Ember-SF/events/139713312/)
+
+
+** Puerto Rico Meetup
+------------------------------------------------------------
+
+15th October, 6:00pm @ Blimp HQ. (http://www.meetup.com/Ember-PR/events/143641452/)
+
+
+** Washington, DC Meetup
+------------------------------------------------------------
+
+17th October, 6:30pm @ Logik. (http://www.meetup.com/Ember-JS-DC/events/135170402/)
+
+
+** Oslo, Norway Meetup
+------------------------------------------------------------
+
+17th October, 6:00pm @ Teknologihuset. (http://www.meetup.com/Ember-js-Oslo/events/140872742/)
+
+
+
+------------------------------------------------------------
+* Finally
+------------------------------------------------------------
+
+
+** The Ember Run Loop Visualized
+------------------------------------------------------------
+
+Alex Matchneer made this cool prototype to visualize how the Ember Run Loop works. ([source](https://github.com/machty/ember-run-loop-visual)) (https://machty.s3.amazonaws.com/ember-run-loop-visual/index.html)
+
+
+
+------------------------------------------------------------
+
+Reply if you have any feedback.
+
+Thanks for reading.
+Owain
+@owz (http://twitter.com/owz)
+
+Follow @EmberWeekly (https://twitter.com/intent/user?screen_name=EmberWeekly)
+
+
+*|FORWARD|* Forward to Friend (*|FORWARD|*)
+http://twitter.com/?status=*|URL:MC_SUBJECT|*: *|URL:ARCHIVE_LINK|* Tweet (http://twitter.com/?status=*|URL:MC_SUBJECT|*: *|URL:ARCHIVE_LINK|*)
+http://www.facebook.com/sharer/sharer.php?u=*|URL:ARCHIVE_LINK|*&t=*|URL:MC_SUBJECT|* Share (http://www.facebook.com/sharer/sharer.php?u=*|URL:ARCHIVE_LINK|*&t=*|URL:MC_SUBJECT|*)
+http://www.linkedin.com/shareArticle?url=*|URL:ARCHIVE_LINK|*&mini=true&title=*|URL:MC_SUBJECT|* Share (http://www.linkedin.com/shareArticle?url=*|URL:ARCHIVE_LINK|*&mini=true&title=*|URL:MC_SUBJECT|*)
+https://plus.google.com/share?url=*|URL:ARCHIVE_LINK|* +1 (https://plus.google.com/share?url=*|URL:ARCHIVE_LINK|*)
+
+============================================================
+
+** unsubscribe *|EMAIL|* (*|UNSUB|*)
+** update subscription preferences (*|UPDATE_PROFILE|*)
+

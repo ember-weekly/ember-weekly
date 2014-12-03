@@ -1,0 +1,214 @@
+Your weekly source of Ember News
+ISSUE #45
+
+Open Web Version (*|ARCHIVE|*)
+
+
+------------------------------------------------------------
+* Releases
+------------------------------------------------------------
+
+
+** Ember 1.4.0 And 1.5 Beta Released
+------------------------------------------------------------
+
+New features in v1.4 include property brace expansion, Ember.run.bind, with controller and lazily bound attributes. (http://emberjs.com/blog/2014/02/12/ember-1-4-0-and-ember-1-5-0-beta-released.html)
+
+
+
+------------------------------------------------------------
+* Core Team Meeting Minutes
+------------------------------------------------------------
+
+
+** Core Team Meeting Minutes - 2014/02/07
+------------------------------------------------------------
+
+ (http://emberjs.com/blog/2014/02/08/core-team-meeting-minutes-2014-02-07.html)
+
+
+** Core Team Meeting Minutes - 2014/01/31
+------------------------------------------------------------
+
+ (http://emberjs.com/blog/2014/02/08/core-team-meeting-minutes-2014-01-31.html)
+
+
+** Core Team Meeting Minutes - 2014/01/27
+------------------------------------------------------------
+
+ (http://emberjs.com/blog/2014/02/08/core-team-meeting-minutes-2014-01-27.html)
+
+
+
+------------------------------------------------------------
+* Reading
+------------------------------------------------------------
+
+
+** Run Loop Guide
+------------------------------------------------------------
+
+Ember now has official guide documentation on the mystical run-loop, thanks to Brendan Briggs. (http://emberjs.com/guides/understanding-ember/run-loop/)
+
+
+** Testing Ember Apps With Venus
+------------------------------------------------------------
+
+Chad Hietala looks at writing Ember tests using Mocha, Venus test runner and Ember&#x27;s container for dependency injection. (http://chadhietala.com/emberjs/2014/02/09/Testing-Ember-Apps-With-Venus.html)
+
+
+** Custom Ember Computed Properties
+------------------------------------------------------------
+
+A guide to creating your own &#x60;&#x60;Em.computed&#x60;&#x60; property. (http://robots.thoughtbot.com/custom-ember-computed-properties)
+
+
+** Structure of an Ember app
+------------------------------------------------------------
+
+A diagram illustrating the structure of an Ember app. (http://samhuri.net/blog/2014.02.03-ember-structure)
+
+
+** Using Ember’s PromiseProxyMixin with ArrayController
+------------------------------------------------------------
+
+A nice summary of using &#x60;&#x60;Ember.PromiseProxyMixin&#x60;&#x60; to automatically set a controller’s content to the resolved value of the promise. (http://nragaz.com/post/60567688560/using-embers-promiseproxymixin-with-arraycontroller)
+
+
+** 2-Way Data Binding under the Microscope
+------------------------------------------------------------
+
+A close look at what 2-way binding gives you, and how it differs in 3 implementations: Angular, Ember and Joosy. (http://staal.io/blog/2014/02/05/2-way-data-binding-under-the-microscope/)
+
+
+** Extinguish the Fire with Ember.js
+------------------------------------------------------------
+
+Slides introducing Ember, it&#x27;s high-level features, it&#x27;s pros &amp; cons, and roadmap. (https://speakerdeck.com/beerlington/extinguish-the-fire-with-ember-dot-js)
+
+
+** Making an Ember.js Component More Reusable
+------------------------------------------------------------
+
+ (http://balinterdi.com/2014/02/12/making-an-emberjs-component-more-reusable.html)
+
+
+
+------------------------------------------------------------
+* Promoted
+------------------------------------------------------------
+
+
+** Ever thought about how Google reads Ember.js websites?
+------------------------------------------------------------
+
+We have. Google can&#x27;t normally index Ember.js sites. We fix that for you, and we&#x27;ll walk you though the setup. (http://www.brombone.com/)
+
+
+
+------------------------------------------------------------
+* Code
+------------------------------------------------------------
+
+
+** Ember Hook Order Example
+------------------------------------------------------------
+
+A JSBin to illustrate the order of each Ember route hook (by Robert Jackson). (http://emberjs.jsbin.com/rolo/1/edit)
+
+
+** ember-app-builder
+------------------------------------------------------------
+
+Template for building a JavaScript Web application with Ember.js and Express. (https://github.com/pixelhandler/ember-app-builder)
+
+
+** ember-mentions
+------------------------------------------------------------
+
+Github like mention autocomplete where you type @someone and an autosuggest box appears. (https://github.com/dagda1/ember-mentions)
+
+
+
+------------------------------------------------------------
+* Watch/Listen
+------------------------------------------------------------
+
+
+** Emberdump: Transition promises, redirects
+------------------------------------------------------------
+
+A quick (16min) video by core team member Alex Matchneer on how to perform post-transition logic in your app using redirect-following transitions. (https://www.youtube.com/watch?v=EwkaMRJ2tMo)
+
+
+** Emberdump: POJOs vs Ember Objects, Ember.get
+------------------------------------------------------------
+
+Another quick (10min) video by Alex to demonstrate that Ember objects and plain old javascript objects (pojos) aren&#x27;t too different. Also see the [continuation of Ember.set &amp; pojos](https://www.youtube.com/watch?v=BIaQk8D4lV8). (https://www.youtube.com/watch?v=h4w7ZqCk0zg)
+
+
+** Iterating through Ember Data - Ken Snyder
+------------------------------------------------------------
+
+A look at iterating through an Ember Data model to create custom UI elements from any given model property and it&#x27;s types. (http://vimeo.com/86715370)
+
+
+** Integrating Ember.js into Existing Sites - James Croft
+------------------------------------------------------------
+
+James shows how he used Ember to build a component of his website instead of a full single page application. (http://vimeo.com/86698279)
+
+
+
+------------------------------------------------------------
+* Events
+------------------------------------------------------------
+
+
+** Ember.js San Francisco
+------------------------------------------------------------
+
+18th February, 6:30pm @ Yahoo!, Sunnyvale. (http://www.meetup.com/Ember-SF/events/155999452/)
+
+
+** Ember-SC
+------------------------------------------------------------
+
+18th February, 6:30pm @ CrowdStrike, Irvine, CA 92618. (http://www.meetup.com/Ember-SC/events/159041272/)
+
+
+** Boston Ember.js Group
+------------------------------------------------------------
+
+Lightning Talks. 20th February, 6:30pm @ Brightcove, Boston. (http://www.meetup.com/Boston-Ember-js/events/159835752/)
+
+
+** Ember.js Pittsburgh
+------------------------------------------------------------
+
+Ember Build tools + Coffee script and Ember. 20th February, 7:00pm @ Revv Oakland, Pittsburgh. (http://www.meetup.com/Ember-js-Pittsburgh/events/161103052/)
+
+
+
+------------------------------------------------------------
+
+Reply if you have any feedback.
+
+Thanks for reading.
+Owain
+@owz (http://twitter.com/owz)
+
+Follow @EmberWeekly (https://twitter.com/intent/user?screen_name=EmberWeekly)
+
+
+*|FORWARD|* Forward to Friend (*|FORWARD|*)
+http://twitter.com/?status=*|URL:MC_SUBJECT|*: *|URL:ARCHIVE_LINK|* Tweet (http://twitter.com/?status=*|URL:MC_SUBJECT|*: *|URL:ARCHIVE_LINK|*)
+http://www.facebook.com/sharer/sharer.php?u=*|URL:ARCHIVE_LINK|*&t=*|URL:MC_SUBJECT|* Share (http://www.facebook.com/sharer/sharer.php?u=*|URL:ARCHIVE_LINK|*&t=*|URL:MC_SUBJECT|*)
+http://www.linkedin.com/shareArticle?url=*|URL:ARCHIVE_LINK|*&mini=true&title=*|URL:MC_SUBJECT|* Share (http://www.linkedin.com/shareArticle?url=*|URL:ARCHIVE_LINK|*&mini=true&title=*|URL:MC_SUBJECT|*)
+https://plus.google.com/share?url=*|URL:ARCHIVE_LINK|* +1 (https://plus.google.com/share?url=*|URL:ARCHIVE_LINK|*)
+
+============================================================
+
+** unsubscribe *|EMAIL|* (*|UNSUB|*)
+** update subscription preferences (*|UPDATE_PROFILE|*)
+

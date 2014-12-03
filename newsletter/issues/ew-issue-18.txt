@@ -1,0 +1,220 @@
+Your weekly source of Ember News
+ISSUE #18
+
+Open Web Version (*|ARCHIVE|*)
+
+
+------------------------------------------------------------
+* Reading
+------------------------------------------------------------
+
+
+** Ember.js Mobile: Responsive Swipe/Push Menu Navigation
+------------------------------------------------------------
+
+How to implement a Facebook-style left-swipe manu nav with Ember. ([code](https://github.com/blangslet/ember.js-mobile-animations-gestures) | [demo](http://ember-mobile-animations.herokuapp.com/)) (http://blangslet.com/post/56963208586/ember-js-mobile-responsive-swipe-push-menu-navigation)
+
+
+** Animation support in Ember 1.1
+------------------------------------------------------------
+
+A proposal &amp; discussion for animation support in Ember v1.1. (http://discuss.emberjs.com/t/animation-support-in-ember-1-1/1977)
+
+
+** Query-String support in Ember Router
+------------------------------------------------------------
+
+A discussion on how Ember should support query strings in the router. (http://discuss.emberjs.com/t/query-string-support-in-ember-router/1962)
+
+
+** Building Apps with Ember (a postmortem)
+------------------------------------------------------------
+
+Notes (and slides) from a talk at the Boston JS Meetup. (http://blog.embed.ly/post/56537323314/building-apps-with-ember-a-postmortem)
+
+
+** How to execute jQuery logic correctly after your View has been rendered
+------------------------------------------------------------
+
+How to use &#x60;didInsertElement&#x60; and &#x60;afterRender&#x60; to ensure your jQuery logic renders correctly. (http://mavilein.github.io/javascript/2013/08/01/Ember-JS-After-Render-Event/)
+
+
+** Client Sync for the REST of Us
+------------------------------------------------------------
+
+Gordon Hempton discusses dealing with client-side data conflicts and how Ember.js Persistence Foundation (EPF) deals with these conflicts. (http://codebrief.com/2013/08/client-sync-for-the-rest-of-us/)
+
+
+** Why does Ember.js rock?
+------------------------------------------------------------
+
+ (https://kerricklong.com/articles/why-ember-js-rocks.html)
+
+
+** How to optimize inefficient computed properties in Ember.js
+------------------------------------------------------------
+
+ (http://dev.billysbilling.com/blog/How-to-optimize-inefficient-computed-properties-in-Ember-js)
+
+
+** Ember.js + Sparkline: Touch-Driven Real-Time Graph Experiment
+------------------------------------------------------------
+
+ (http://blangslet.com/post/56963258001/ember-js-sparkline-touch-driven-real-time-graph)
+
+
+** Ember Routing: The When and Why of Nesting
+------------------------------------------------------------
+
+ (http://hashrocket.com/blog/posts/ember-routing-the-when-and-why-of-nesting)
+
+
+** How to handle invalid URLs
+------------------------------------------------------------
+
+ (http://dinethmendis.com/blog/2013/7/30/handling-unsupported-urls-with-emberjs)
+
+
+
+------------------------------------------------------------
+* Ember Fest
+------------------------------------------------------------
+
+
+** The Biggest Ember.js Event in Europe!
+------------------------------------------------------------
+
+Ember Fest takes place in Munich, Germany. A three day event featuring Training sessions, a full day Hackathon and a full day Conference. This will be the European Ember.js event of the year! Starting on August 29th and ending on August 30th, with a conference dinner and after party. (http://emberfest.eu/)
+
+
+
+------------------------------------------------------------
+* Ember.Component
+------------------------------------------------------------
+
+
+** Difference between View &amp; Component
+------------------------------------------------------------
+
+A quick illustration of the difference between Ember.View and Ember.Component. (http://jsbin.com/owokap/1/edit)
+
+
+** Doughnut Charts with D3 &amp; Ember.Component
+------------------------------------------------------------
+
+ (http://jsbin.com/donuts/1/edit)
+
+
+** Star Rating Ember.Component
+------------------------------------------------------------
+
+An example of a Star Rating component born from a [conversation on twitter](https://twitter.com/trek/status/363039940940017664). (http://jsbin.com/obipuc/3/edit)
+
+
+** Tweet Button Ember.Component
+------------------------------------------------------------
+
+A Twitter &#x27;tweet&#x27; button &amp; Google +1 button using Ember.Component. (http://jsbin.com/upogic/1/edit)
+
+
+** Auto-complete Ember.Component
+------------------------------------------------------------
+
+ (http://jsbin.com/alabob/88/edit)
+
+
+
+------------------------------------------------------------
+* Jobs
+------------------------------------------------------------
+
+
+** Looking for an Ember Developer?
+------------------------------------------------------------
+
+Deliver your job opening directly to developers with known interest in Ember.js development. Simply reply for more information about posting a job in Ember Weekly. (mailto:info@emberweekly.com?Subject=Post%20a%20Job%20in%20Ember%20Weekly&amp;Body=Title%3A%20e.g%20Senior%20Front-End%20Web%20Developer%0ABody%3A%20e.g.%20Want%20to%20work%20on%20large%20Ember.js%20projects%3F%20We%27re%20looking%20for%20a%20rockstar%20developer%20with%205%20years%20JavaScript%20experience%21%20%0Aurl%3A%20e.g.%20www.your-companies-website.com/careers%0A%0A%23%20weeks%3A%20How%20many%20weeks%20would%20you%20like%20the%20ad%20to%20be%20live%20for%3F%0ADate%3A%20When%20would%20you%20like%20the%20ad%20to%20go%20live%3F%0A%0ANotes%3A%20any%20other%20info%20you%27d%20like%20us%20to%20know...%3F%0ANote.%20There%20is%20a%20fee%20associated%20with%20advertising%20a%20job)
+
+
+
+------------------------------------------------------------
+* Code
+------------------------------------------------------------
+
+
+** Grunt EmberScript
+------------------------------------------------------------
+
+Grunt task that compiles against the EmberScript compiler. (https://github.com/ghempton/grunt-ember-script)
+
+
+** Sublime Text 2 Ember Snippets
+------------------------------------------------------------
+
+A collection of snippets for the Sublime Text 2 text editor. (https://github.com/fabriciotav/ember-snippets-for-sublime-text-2)
+
+
+** ember-rails4-starter-kit
+------------------------------------------------------------
+
+Rails 4 + Ember.js + Devise + Bootstrap 3 (https://github.com/amaanr/ember-rails4-starter-kit)
+
+
+** Ember Renderspeed
+------------------------------------------------------------
+
+A script for instrumenting rendering speed in an Ember.Js Application (https://github.com/eviltrout/ember-renderspeed)
+
+
+
+------------------------------------------------------------
+* Events
+------------------------------------------------------------
+
+
+** Washington, DC Meetup
+------------------------------------------------------------
+
+6th August, 7:00pm @ Jack Rose Dining Saloon. (http://www.meetup.com/Ember-JS-DC/events/128544622/)
+
+
+** Boston Meetup
+------------------------------------------------------------
+
+8th August, 6:30pm @ DockYard. (http://www.meetup.com/Boston-Ember-js/events/129526392/)
+
+
+
+------------------------------------------------------------
+* Finally
+------------------------------------------------------------
+
+
+** Ember 1.0 Documentation Push
+------------------------------------------------------------
+
+There&#x27;s a lot of work going into auditing the Ember docs ready for v1.0. Chip in to help get them up to scratch. (https://github.com/emberjs/ember.js/pull/3082)
+
+
+
+------------------------------------------------------------
+
+Reply if you have any feedback.
+
+Thanks for reading.
+Owain
+@owz (http://twitter.com/owz)
+
+Follow @EmberWeekly (https://twitter.com/intent/user?screen_name=EmberWeekly)
+
+
+*|FORWARD|* Forward to Friend (*|FORWARD|*)
+http://twitter.com/?status=*|URL:MC_SUBJECT|*: *|URL:ARCHIVE_LINK|* Tweet (http://twitter.com/?status=*|URL:MC_SUBJECT|*: *|URL:ARCHIVE_LINK|*)
+http://www.facebook.com/sharer/sharer.php?u=*|URL:ARCHIVE_LINK|*&t=*|URL:MC_SUBJECT|* Share (http://www.facebook.com/sharer/sharer.php?u=*|URL:ARCHIVE_LINK|*&t=*|URL:MC_SUBJECT|*)
+http://www.linkedin.com/shareArticle?url=*|URL:ARCHIVE_LINK|*&mini=true&title=*|URL:MC_SUBJECT|* Share (http://www.linkedin.com/shareArticle?url=*|URL:ARCHIVE_LINK|*&mini=true&title=*|URL:MC_SUBJECT|*)
+https://plus.google.com/share?url=*|URL:ARCHIVE_LINK|* +1 (https://plus.google.com/share?url=*|URL:ARCHIVE_LINK|*)
+
+============================================================
+
+** unsubscribe *|EMAIL|* (*|UNSUB|*)
+** update subscription preferences (*|UPDATE_PROFILE|*)
+

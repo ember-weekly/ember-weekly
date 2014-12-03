@@ -1,0 +1,196 @@
+Your weekly source of Ember News
+ISSUE #25
+
+Open Web Version (*|ARCHIVE|*)
+
+
+------------------------------------------------------------
+* Reading
+------------------------------------------------------------
+
+
+** CRUD example app without Ember Data
+------------------------------------------------------------
+
+A detailed walkthrough of creating an Ember application without Ember Data. (http://embersherpa.com/articles/crud-example-app-without-ember-data/)
+
+
+** Debugging with Ember Inspector – Ember’s Chrome Plugin
+------------------------------------------------------------
+
+An introduction to the [Ember Chrome Plugin](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi) and the features it has to offer. (http://spin.atomicobject.com/2013/09/19/ember-inspector-chrome-plugin/)
+
+
+** Want to Learn Ember.js? Start Here
+------------------------------------------------------------
+
+Some useful resources for anyone starting out with Ember. (http://elweb.co/want-to-learn-ember-js-start-here/)
+
+
+** Using Ember.js with jQuery UI
+------------------------------------------------------------
+
+Luke Melia updated his blog post for Ember 1.0. (http://www.lukemelia.com/blog/archives/2012/03/10/using-ember-js-with-jquery-ui/)
+
+
+** Scaffold for a Browser App Built With Ember.js, Rails, Ember.Data
+------------------------------------------------------------
+
+ (http://pixelhandler.com/blog/2013/09/24/scaffold-for-a-browser-app-built-with-ember-js-and-rails/)
+
+
+** Editing Markdown with Ember.js
+------------------------------------------------------------
+
+ (http://www.williamhart.info/editing-markdown-with-emberjs.html)
+
+
+** Ember.js and Google Analytics
+------------------------------------------------------------
+
+ (http://lambdafoo.com/blog/2013/09/17/emberjs-and-google-analytics/)
+
+
+
+------------------------------------------------------------
+* Watch/Listen
+------------------------------------------------------------
+
+
+** Building Reusable UIs
+------------------------------------------------------------
+
+Steve Kane talks about component architecture at the Chicago Meetup. (http://www.youtube.com/watch?v=zC7o1YkmkG0)
+
+
+
+------------------------------------------------------------
+* Code
+------------------------------------------------------------
+
+
+** Ember App Kit Documentation Site
+------------------------------------------------------------
+
+The initial version of the EAK documentation is online. Still missing some content from sections. (http://iamstef.net/ember-app-kit/)
+
+
+** Promise Error Handling Gist
+------------------------------------------------------------
+
+Log all errors that are not immediately handled in promises. (https://gist.github.com/stefanpenner/587e5f047d2f412fe463)
+
+
+** Ember Testing with Mocha Adapter Example
+------------------------------------------------------------
+
+A simple example of using mocha.js to test Ember 1.x and Ember Data Beta 2 with Fixtures. (https://github.com/CodeOfficer/example-ember-startup-kit-with-testing)
+
+
+** emberFire - Firebase Ember Bindings
+------------------------------------------------------------
+
+Looks like there&#x27;s some initial work being done on Ember Bindings for Firebase. (https://github.com/firebase/emberFire)
+
+
+
+------------------------------------------------------------
+* Jobs
+------------------------------------------------------------
+
+
+** Looking for an Ember Developer?
+------------------------------------------------------------
+
+Deliver your job opening directly to developers with known interest in Ember.js development. Simply reply for more information about posting a job in Ember Weekly. (mailto:info@emberweekly.com?Subject=Post%20a%20Job%20in%20Ember%20Weekly&amp;Body=Title%3A%20e.g%20Senior%20Front-End%20Web%20Developer%0ABody%3A%20e.g.%20Want%20to%20work%20on%20large%20Ember.js%20projects%3F%20We%27re%20looking%20for%20a%20rockstar%20developer%20with%205%20years%20JavaScript%20experience%21%20%0Aurl%3A%20e.g.%20www.your-companies-website.com/careers%0A%0A%23%20weeks%3A%20How%20many%20weeks%20would%20you%20like%20the%20ad%20to%20be%20live%20for%3F%0ADate%3A%20When%20would%20you%20like%20the%20ad%20to%20go%20live%3F%0A%0ANotes%3A%20any%20other%20info%20you%27d%20like%20us%20to%20know...%3F%0ANote.%20There%20is%20a%20fee%20associated%20with%20advertising%20a%20job)
+
+
+
+------------------------------------------------------------
+* Events
+------------------------------------------------------------
+
+
+** Austin, TX Meetup
+------------------------------------------------------------
+
+26th September, 7:00pm @ The FrontSide. (http://www.meetup.com/Ember-ATX/events/136767882/)
+
+
+** Boston OpenHack Meetup
+------------------------------------------------------------
+
+26th September, 6:30pm @ DockYard. (http://www.meetup.com/Boston-Ember-js/events/140201602/)
+
+
+** Salt Lake City Meetup
+------------------------------------------------------------
+
+26th September, 6:30pm @ Instructure. (http://www.meetup.com/EmberJS-SLC/events/135018692/)
+
+
+** San Juan, Puerto Rico Meetup
+------------------------------------------------------------
+
+1st October, 6:00pm @ Blimp HQ. (http://www.meetup.com/Ember-PR/events/140883452/)
+
+
+** NYC Hacker Hours Meetup
+------------------------------------------------------------
+
+1st October, 6:00pm @ SimpleReach. (http://www.meetup.com/EmberJS-NYC/events/141119042/)
+
+
+** Toronto Meetup
+------------------------------------------------------------
+
+3rd October. (http://www.torontoemberjs.com/)
+
+
+** NEW: Cincinnati, OH Meetup
+------------------------------------------------------------
+
+ (http://www.meetup.com/Embernati/)
+
+
+
+------------------------------------------------------------
+* Finally
+------------------------------------------------------------
+
+
+** Apple Help Guides Use Ember
+------------------------------------------------------------
+
+Not exactly the most exciting app in the world but interesting to browse with the Chrome Adapter nevertheless. (http://help.apple.com/iphone/7)
+
+
+** Falling Blocks Game in Ember
+------------------------------------------------------------
+
+Who said Ember wasn&#x27;t for games?! Alex Matchneer put together this awesome Falling Blocks game using Ember. (https://machty.s3.amazonaws.com/ember-falling-blocks/index.html)
+
+
+
+------------------------------------------------------------
+
+Reply if you have any feedback.
+
+Thanks for reading.
+Owain
+@owz (http://twitter.com/owz)
+
+Follow @EmberWeekly (https://twitter.com/intent/user?screen_name=EmberWeekly)
+
+
+*|FORWARD|* Forward to Friend (*|FORWARD|*)
+http://twitter.com/?status=*|URL:MC_SUBJECT|*: *|URL:ARCHIVE_LINK|* Tweet (http://twitter.com/?status=*|URL:MC_SUBJECT|*: *|URL:ARCHIVE_LINK|*)
+http://www.facebook.com/sharer/sharer.php?u=*|URL:ARCHIVE_LINK|*&t=*|URL:MC_SUBJECT|* Share (http://www.facebook.com/sharer/sharer.php?u=*|URL:ARCHIVE_LINK|*&t=*|URL:MC_SUBJECT|*)
+http://www.linkedin.com/shareArticle?url=*|URL:ARCHIVE_LINK|*&mini=true&title=*|URL:MC_SUBJECT|* Share (http://www.linkedin.com/shareArticle?url=*|URL:ARCHIVE_LINK|*&mini=true&title=*|URL:MC_SUBJECT|*)
+https://plus.google.com/share?url=*|URL:ARCHIVE_LINK|* +1 (https://plus.google.com/share?url=*|URL:ARCHIVE_LINK|*)
+
+============================================================
+
+** unsubscribe *|EMAIL|* (*|UNSUB|*)
+** update subscription preferences (*|UPDATE_PROFILE|*)
+

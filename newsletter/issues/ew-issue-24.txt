@@ -1,0 +1,208 @@
+Your weekly source of Ember News
+ISSUE #24
+
+Open Web Version (*|ARCHIVE|*)
+
+
+------------------------------------------------------------
+* News
+------------------------------------------------------------
+
+
+** Ember 1.1.0 Beta 1 Released
+------------------------------------------------------------
+
+As promised by the [new release process](http://emberjs.com/blog/2013/09/06/new-ember-release-process.html), this week saw the first beta of Ember 1.1 released consisting mainly of bug fixes. (http://emberjs.com/builds/#/beta/latest)
+
+
+** Ember Cookbooks
+------------------------------------------------------------
+
+The Ember guides now have a &quot;Cookbook&quot; section that provides answers and solutions to common Ember questions and problems. (http://emberjs.com/guides/cookbook/)
+
+
+
+------------------------------------------------------------
+* Reading
+------------------------------------------------------------
+
+
+** Introducing the Ember App Kit
+------------------------------------------------------------
+
+Matthew Beale gives a walkthrough of the Ember App Kit project. (http://blog.safaribooksonline.com/2013/09/18/ember-app-kit/)
+
+
+** Ember Sherpa: Introduction to Ember App Kit
+------------------------------------------------------------
+
+Another detailed introduction of Ember App Kit. (http://beta.embersherpa.com/articles/introduction-to-ember-app-kit/)
+
+
+** How Complex are TodoMVC Implementations
+------------------------------------------------------------
+
+An in-depth look at the popular TodoMVC implementations and how their complexity compare. (http://blog.coderstats.net/todomvc-complexity/)
+
+
+** An Ember.js beginners tutorial
+------------------------------------------------------------
+
+ (http://www.williamhart.info/an-emberjs-beginners-tutorial.html)
+
+
+** Componentised Form Validation for Emberjs
+------------------------------------------------------------
+
+ (http://garthw.wordpress.com/2013/09/17/ember-form-validation/)
+
+
+
+------------------------------------------------------------
+* Watch/Listen
+------------------------------------------------------------
+
+
+** The Promise Land by Stefan Penner
+------------------------------------------------------------
+
+Stefan talks about Promises and RSVP.js at the Boston September Meetup. (http://www.youtube.com/watch?v=g5CSaK3HqVA)
+
+
+** Understanding Events &amp; Actions by Luke Melia
+------------------------------------------------------------
+
+The video from Luke&#x27;s talk from the Boston September Meetup on events &amp; actions in Ember. (http://www.youtube.com/watch?feature=player_detailpage&amp;v=g5CSaK3HqVA#t=3510)
+
+
+
+------------------------------------------------------------
+* Code
+------------------------------------------------------------
+
+
+** Ember Component Library Template
+------------------------------------------------------------
+
+Get started building your own custom components for Ember. (https://github.com/moonlight-labs/ember-component-library-template)
+
+
+** Ember Validations
+------------------------------------------------------------
+
+1.0.0 Beta 1 released. Validations for Ember Objects. ([demo](http://emberjs.jsbin.com/EveQOke/1/edit)) (https://github.com/dockyard/ember-validations)
+
+
+** Ember easyForm
+------------------------------------------------------------
+
+1.0.0 Beta 1 released. Easily build semantic forms in Ember. ([demo](http://emberjs.jsbin.com/EveQOke/1/edit)) (https://github.com/dockyard/ember-easyForm)
+
+
+** Ember Addon Kit
+------------------------------------------------------------
+
+Boilerplate repository for creating ember addons. (https://github.com/rpflorence/ember-addon-kit)
+
+
+** Number Counter Ember Component
+------------------------------------------------------------
+
+by Heyjin Kim (http://jsbin.com/number-counter-component/1/edit)
+
+
+
+------------------------------------------------------------
+* Jobs
+------------------------------------------------------------
+
+
+** Front End Web Engineer - Clutch Analytics/Windhaven Insurance (Austin, TX)
+------------------------------------------------------------
+
+Get the coolest job in Austin building Ember.js apps with our innovative startup. Build greenfield apps for a rapidly growing automotive insurer. This unique opportunity requires team players with senior JS experience. Job.Plus = Ember.Experience.extend(); [contact us](mailto:jia.asencio@windhaveninsurance.com?Subject=Front%20End%20Web%20Engineer%20-%20Ember%20Weekly%20Job%20Posting)  (http://www.windhaveninsurance.com/)
+
+
+
+------------------------------------------------------------
+* Events
+------------------------------------------------------------
+
+
+** Paris Meetup
+------------------------------------------------------------
+
+24th September, 7:30pm @ Xebia France. (http://www.meetup.com/EmberJS-Paris/events/138208482/)
+
+
+** Chicago Meetup
+------------------------------------------------------------
+
+24th September, 7:00pm @ Lightbank. (http://www.meetup.com/Chicago-Ember-js/events/139243182/)
+
+
+** Austin, TX Meetup
+------------------------------------------------------------
+
+26th September, 7:00pm @ The FrontSide. (http://www.meetup.com/Ember-ATX/events/136767882/)
+
+
+** Boston OpenHack Meetup
+------------------------------------------------------------
+
+26th September, 6:30pm @ DockYard. (http://www.meetup.com/Boston-Ember-js/events/140201602/)
+
+
+** Salt Lake City Meetup
+------------------------------------------------------------
+
+26th September, 6:30pm @ Instructure. (http://www.meetup.com/EmberJS-SLC/events/135018692/)
+
+
+** NEW: San Juan, Puerto Rico Meetup
+------------------------------------------------------------
+
+1st October, 6:00pm @ Blimp HQ. (http://www.meetup.com/Ember-PR/events/140883452/)
+
+
+** NEW: Oslo, Norway Meetup
+------------------------------------------------------------
+
+17th October, 6:00pm @ Teknologihuset. (http://www.meetup.com/Ember-js-Oslo/events/140872742/)
+
+
+
+------------------------------------------------------------
+* Finally
+------------------------------------------------------------
+
+
+** New Core Team Member: Alex Matchneer
+------------------------------------------------------------
+
+Congratulations to Alex Matchneer (@machty) aka &quot;Mr Router&quot; for being named an Ember.js Core Team Member last week. Alex is best know for his work on the Async-Router facelift, [Emblem.js](http://emblemjs.com/) &amp; [Embercasts](http://www.embercasts.com/) (with Erik Bryn). (http://emberjs.com/team/)
+
+
+
+------------------------------------------------------------
+
+Reply if you have any feedback.
+
+Thanks for reading.
+Owain
+@owz (http://twitter.com/owz)
+
+Follow @EmberWeekly (https://twitter.com/intent/user?screen_name=EmberWeekly)
+
+
+*|FORWARD|* Forward to Friend (*|FORWARD|*)
+http://twitter.com/?status=*|URL:MC_SUBJECT|*: *|URL:ARCHIVE_LINK|* Tweet (http://twitter.com/?status=*|URL:MC_SUBJECT|*: *|URL:ARCHIVE_LINK|*)
+http://www.facebook.com/sharer/sharer.php?u=*|URL:ARCHIVE_LINK|*&t=*|URL:MC_SUBJECT|* Share (http://www.facebook.com/sharer/sharer.php?u=*|URL:ARCHIVE_LINK|*&t=*|URL:MC_SUBJECT|*)
+http://www.linkedin.com/shareArticle?url=*|URL:ARCHIVE_LINK|*&mini=true&title=*|URL:MC_SUBJECT|* Share (http://www.linkedin.com/shareArticle?url=*|URL:ARCHIVE_LINK|*&mini=true&title=*|URL:MC_SUBJECT|*)
+https://plus.google.com/share?url=*|URL:ARCHIVE_LINK|* +1 (https://plus.google.com/share?url=*|URL:ARCHIVE_LINK|*)
+
+============================================================
+
+** unsubscribe *|EMAIL|* (*|UNSUB|*)
+** update subscription preferences (*|UPDATE_PROFILE|*)
+

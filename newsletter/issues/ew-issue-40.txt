@@ -1,0 +1,280 @@
+Your weekly source of Ember News
+ISSUE #40
+
+Open Web Version (*|ARCHIVE|*)
+
+
+------------------------------------------------------------
+* Releases
+------------------------------------------------------------
+
+
+** Ember 1.3.0 and 1.4 Beta Released
+------------------------------------------------------------
+
+1.3 includes testability improvements, Promise improvements (RSVP.js updated to v3.0.3 and [more](https://github.com/emberjs/ember.js/blob/v1.3.0/CHANGELOG.md). Also check out the [1.4 Beta 1 changelog](https://github.com/emberjs/ember.js/blob/v1.4.0-beta.1/CHANGELOG.md).  (http://emberjs.com/blog/2014/01/06/ember-1-3-0-and-ember-1-4-0-beta-released.html)
+
+
+
+------------------------------------------------------------
+* Featured
+------------------------------------------------------------
+
+
+** Core Team Meeting Minutes - 2014/01/03
+------------------------------------------------------------
+
+In this week&#x27;s meeting the team discusses the feature that will make it into 1.4 (with-controller, ember-metal-with-proxy) and those that won&#x27;t (query-params-new, ember-metal-run-method). (http://emberjs.com/blog/2014/01/06/core-team-meeting-minutes-2014-01-03.html)
+
+
+** EmberConf 2014 Call for Papers
+------------------------------------------------------------
+
+Want to speak at EmberConf 2014? Call for Papers is now open so get your proposal in before January 30th. (https://tilde.wufoo.com/forms/emberconf-2014-call-for-papers/)
+
+
+
+------------------------------------------------------------
+* Reading
+------------------------------------------------------------
+
+
+** Hiding Offscreen Content in Ember.js
+------------------------------------------------------------
+
+A technique to reduce the browser memory footprint when loading a large list of content which has been extracted into a reusable library, [ember-cloaking](https://github.com/eviltrout/ember-cloaking). (http://eviltrout.com/2014/01/04/hiding-offscreen-ember.html)
+
+
+** Ember Components: A Deep Dive
+------------------------------------------------------------
+
+A close look at the power of &#x60;&#x60;Ember.Component&#x60;&#x60;. (http://net.tutsplus.com/tutorials/javascript-ajax/ember-components-a-deep-dive/)
+
+
+** Query Parameters Guide
+------------------------------------------------------------
+
+Initial documentation has been added to the guides for the experimental Query Parameter feature. The team are looking for feedback on the implementation. (http://emberjs.com/guides/routing/query-params/)
+
+
+** Animating Ember: From The Beginning
+------------------------------------------------------------
+
+Rob Harper&#x27;s presentation from the Toronto meetup which looks at the challenges of animating views with Ember. (http://www.robharper.ca/ember-on-mobile/animation.html#/)
+
+
+** Ember Repositories
+------------------------------------------------------------
+
+A new official guide on the different libraries that make up Ember. (http://emberjs.com/guides/contributing/repositories/)
+
+
+** Packaging Ember Libraries
+------------------------------------------------------------
+
+Slides from Jamie Gilgen talk at the Toronto Meetup covering JavaScript Modules, Release Management and Tests in the context of an Ember library. (http://jamiebikies.github.io/packaging-ember-libs/#1)
+
+
+** NodeJS, EmberJS, ES6 modules and Ember-Data
+------------------------------------------------------------
+
+A look at setting up an Express backend to work with Ember Data. (http://thau.me/2014/01/nodejs-emberjs-es6-modules-and-ember-data/)
+
+
+** Improved Promise Documentation
+------------------------------------------------------------
+
+With the update to RSVP.js 3.0.3 in Ember 1.3.0 comes improved documentation of Promises in Ember. (http://emberjs.com/api/classes/Ember.RSVP.Promise.html)
+
+
+** Ember.js testing with Jasmine
+------------------------------------------------------------
+
+ (http://www.devmynd.com/blog/2014-1-ember-js-testing-with-jasmine)
+
+
+** Ember.js - Creating a Custom Handlebars if Helper
+------------------------------------------------------------
+
+ (http://www.thesoftwaresimpleton.com/blog/2014/01/08/custom-if/)
+
+
+** Copying text to the clipboard in Ember.js with ZeroClipboard
+------------------------------------------------------------
+
+ (http://pivotallabs.com/copying-text-clipboard-ember-js-zeroclipboard/)
+
+
+
+------------------------------------------------------------
+* Promoted
+------------------------------------------------------------
+
+
+** Don&#x27;t struggle to figure out SEO for your Ember.js app
+------------------------------------------------------------
+
+BromBone takes care of it for you. We render html snapshots of your pages that Google can read. Learn more about how you can get your Ember.js pages listed in Google. (http://www.brombone.com/)
+
+
+
+------------------------------------------------------------
+* Code
+------------------------------------------------------------
+
+
+** Query Param API Examples
+------------------------------------------------------------
+
+Examples of the Query Param API being worked on for a future version of Ember. (https://gist.github.com/machty/8167051)
+
+
+** Ember-Parallel
+------------------------------------------------------------
+
+An Ember.js plugin proving integration with Parallel.js. The plugin allows you to run code inside web workers in the browser (i.e. in background threads) and access the results easily within your Ember app. (https://github.com/bengillies/ember-parallel)
+
+
+** Ember App Kit Rails
+------------------------------------------------------------
+
+v0.4.0 released. (https://github.com/dockyard/ember-appkit-rails/blob/master/CHANGELOG.md#040)
+
+
+** Fancy Sprites in Ember App Kit
+------------------------------------------------------------
+
+A CSS image based spriting solution was recently merged into Ember App Kit. (https://github.com/stefanpenner/ember-app-kit/pull/385)
+
+
+** Programmatically adding custom views to a CollectionView
+------------------------------------------------------------
+
+ (http://embersherpa.github.io/examples/#deck)
+
+
+** Google Maps Component
+------------------------------------------------------------
+
+ (https://gist.github.com/kselden/8189650)
+
+
+
+------------------------------------------------------------
+* Watch/Listen
+------------------------------------------------------------
+
+
+** Introducing Orbit.js - Boston Meetup
+------------------------------------------------------------
+
+Dan Gebhardt introduces his new generic JavaScript library to handle data based on his experiences with Ember Data. Also see the [slides](https://speakerdeck.com/dgeb/introducing-orbit-dot-js) and [code](https://github.com/cerebris/orbit.js). (https://www.youtube.com/watch?v=vVDQY7kYV_8#t=251)
+
+
+** The Rendering Revolution: Running Apps in the Browser with Ember.js
+------------------------------------------------------------
+
+Trek Glowacki of the Ember Core Team speaks at All Things Open 2013 about the browser as an App runtime using Ember.js. (https://www.youtube.com/watch?v=_EKiaOElaag)
+
+
+** Ember-Data, the Way Forward
+------------------------------------------------------------
+
+Igor Terzic presents several cases where Ember Data is used in production, and outlines some of the features that are intended to be included in the future. (Note: This presentation may not reflect the current state &amp; future roadmap of Ember-Data). (http://www.infoq.com/presentations/ember-data)
+
+
+** Testing Ember Applications - Dan Gebhardt
+------------------------------------------------------------
+
+Dan Gebhardt talks about testing Ember applications at Boston Ember.js in June. (https://www.youtube.com/watch?v=AvZtJFsw2kw)
+
+
+
+------------------------------------------------------------
+* Events
+------------------------------------------------------------
+
+
+** New: Portland Meetup
+------------------------------------------------------------
+
+14th January, 6:30pm @ Tilde Inc, Portland. (http://www.meetup.com/Ember-PDX/events/156000292/)
+
+
+** Ember.js Adelaide
+------------------------------------------------------------
+
+Ember.js Adelaide Meetup #1!. 14th January, 1:00pm @ Katalyst Interactive, Adelaide. (http://www.meetup.com/Ember-js-Adelaide/events/158876012/)
+
+
+** Ember-SC
+------------------------------------------------------------
+
+Ember-SC January Meetup. 14th January, 2:00pm @ Caplinked, El Segundo. (http://www.meetup.com/Ember-SC/events/153022842/)
+
+
+** London Ember.js User Group
+------------------------------------------------------------
+
+January Meetup. 15th January, 1:30pm @ SapientNitro, London. (http://www.meetup.com/London-Emberjs-User-Group/events/159233442/)
+
+
+** Ember.js Pittsburgh
+------------------------------------------------------------
+
+16th January, 7:00pm @ Revv Oakland, Pittsburgh. (http://www.meetup.com/Ember-js-Pittsburgh/events/158351342/)
+
+
+** Ember.js San Francisco
+------------------------------------------------------------
+
+January 2014 Meetup—We&#x27;re Back!. 21st January, 1:30pm @ Microsoft, San Francisco. (http://www.meetup.com/Ember-SF/events/155996392/)
+
+
+** Ember Hack Night, Toronto
+------------------------------------------------------------
+
+6:30pm @ Freshbooks Loft, Toronto. (http://www.meetup.com/Ember-Hack-Night/events/159307362/)
+
+
+** New: Saint Louis Meetup
+------------------------------------------------------------
+
+6th February, 7:00pm @ Second Street, Saint Louis. (http://www.meetup.com/STLEmber/events/159285352/)
+
+
+
+------------------------------------------------------------
+* Finally
+------------------------------------------------------------
+
+
+** Vine.co uses Ember
+------------------------------------------------------------
+
+The new Vine website is built with Ember. Check it out with the Ember Inspector in Chrome or Firefox. (https://vine.co/)
+
+
+
+------------------------------------------------------------
+
+Reply if you have any feedback.
+
+Thanks for reading.
+Owain
+@owz (http://twitter.com/owz)
+
+Follow @EmberWeekly (https://twitter.com/intent/user?screen_name=EmberWeekly)
+
+
+*|FORWARD|* Forward to Friend (*|FORWARD|*)
+http://twitter.com/?status=*|URL:MC_SUBJECT|*: *|URL:ARCHIVE_LINK|* Tweet (http://twitter.com/?status=*|URL:MC_SUBJECT|*: *|URL:ARCHIVE_LINK|*)
+http://www.facebook.com/sharer/sharer.php?u=*|URL:ARCHIVE_LINK|*&t=*|URL:MC_SUBJECT|* Share (http://www.facebook.com/sharer/sharer.php?u=*|URL:ARCHIVE_LINK|*&t=*|URL:MC_SUBJECT|*)
+http://www.linkedin.com/shareArticle?url=*|URL:ARCHIVE_LINK|*&mini=true&title=*|URL:MC_SUBJECT|* Share (http://www.linkedin.com/shareArticle?url=*|URL:ARCHIVE_LINK|*&mini=true&title=*|URL:MC_SUBJECT|*)
+https://plus.google.com/share?url=*|URL:ARCHIVE_LINK|* +1 (https://plus.google.com/share?url=*|URL:ARCHIVE_LINK|*)
+
+============================================================
+
+** unsubscribe *|EMAIL|* (*|UNSUB|*)
+** update subscription preferences (*|UPDATE_PROFILE|*)
+
