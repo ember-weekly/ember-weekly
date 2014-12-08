@@ -23,7 +23,7 @@ module.exports = function (grunt) {
 
     ////////////////////////////////////////////////////////////////////////
 
-    var newsletterYaml = 'newsletter/content/ew-issue-85-[2014-11-30].yaml';
+    var newsletterYaml = 'newsletter/content/ew-issue-86-[2014-12-07].yaml';
 
     ////////////////////////////////////////////////////////////////////////
 
@@ -392,7 +392,7 @@ module.exports = function (grunt) {
                         }
                     }
 
-                    headline.domain = URL.parse(headline.link).hostname.replace('www.', '');
+                    headline.domain = headline.domain || URL.parse(headline.link).hostname.replace('www.', '');
                 });
             }
         });
