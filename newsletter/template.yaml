@@ -46,7 +46,6 @@
     #             title: ""
     #             description: ""
     #             link:
-    #             link:
     #         -
     #             title: ""
     #             description: ""
@@ -76,7 +75,6 @@
     #             title: ""
     #             description: ""
     #             link:
-    #             link:
     #         -
     #             title: ""
     #             description: ""
@@ -85,6 +83,16 @@
     #             title: ""
     #             description: ""
     #             link:
+
+
+    # -
+    #     heading: "Jobs"
+    #     advert: true
+    #     headlines:
+    #         -
+    #            title: ""
+    #            description: ""
+    #            link:
 
 
     # -
