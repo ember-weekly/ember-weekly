@@ -1,0 +1,183 @@
+issue: 87
+strapline: "Your weekly source of Ember News"
+content:
+
+    -
+        heading: "Releases"
+        headlines:
+            -
+                title: "Ember 1.9.0 and 1.10 Beta Released"
+                description: ""
+                link: http://emberjs.com/blog/2014/12/08/ember-1-9-0-released.html
+
+    # -
+    #     heading: "Featured"
+    #     headlines:
+    #         -
+    #             title: ""
+    #             description: ""
+    #             link:
+
+
+    -
+        heading: "Reading"
+        headlines:
+            -
+                title: "Lazy Loading Videos in Ember"
+                description: ""
+                link: https://medium.com/delightful-ui-for-ember-apps/lazy-loading-videos-in-ember-7504a4abe34f
+            -
+                title: "Research: Performance Impact of Popular JavaScript MVC Frameworks"
+                description: ""
+                link: http://www.filamentgroup.com/lab/mv-initial-load-times.html
+            -
+                title: "Building with Ember.js at DockYard"
+                description: ""
+                link: http://www.talentbuddy.co/blog/building-with-ember-js-at-dockyard/
+            -
+                title: "3 Ways Ember.js Leverages Promises"
+                description: ""
+                link: https://hackhands.com/3-ways-ember-js-leverages-promises
+            -
+                title: "Top Reasons Why Industry Experts Use Ember.js and How You Can Adopt It Yourself"
+                description: ""
+                link: http://www.talentbuddy.co/blog/top-reasons-why-industry-experts-use-ember-js-and-how-you-can-adopt-it-yourself/
+            -
+                title: "3 Patterns for Authentication in Ember.js"
+                description: ""
+                link: http://training.wizebee.com/posts/3-patterns-for-authentication-in-emberjs
+            -
+                title: "How to Pass Api-Keys in Environment Variables to Ember-CLI Using process.env"
+                description: ""
+                link: http://training.wizebee.com/posts/how-to-pass-api-keys-in-environment-variables-to-ember-cli-using-process.env
+            -
+                title: "Ember can React"
+                description: ""
+                link: https://unspace.ca/dev/2014/ember-can-react
+            -
+                title: "Cancellable Actions"
+                description: ""
+                link: http://blog.ksol.fr/ember-js-cancellable-actions/
+
+
+    -
+        heading: "From our sponsors"
+        image: "https://raw.githubusercontent.com/ember-weekly/ember-weekly/master/assets/sponsors/dockyard-logo.png"
+        advert: true
+        headlines:
+            -
+                title: "Work with the Ember.js experts at DockYard to build your next Ember.js project!"
+                description: "We offer full stack services: UX Design, Backend (Rails), and unmatched expertise in Ember.js consulting. We're happy taking complete ownership of projects or working alongside your existing team. [Contact us to learn more](http://dockyard.com/contact)!"
+                link: http://dockyard.com/contact
+                advert: true
+
+
+    -
+        heading: "Code"
+        headlines:
+            -
+                title: "ember-cli-uploader: Ember Library for Uploading Files"
+                description: ""
+                link: https://www.npmjs.com/package/ember-cli-uploader
+            -
+                title: "ember-cli-skeleton: Skeleton CSS for your Ember-CLI App"
+                description: ""
+                link: https://www.npmjs.com/package/ember-cli-skeleton
+            -
+                title: "ember-cli-rework: Rework CSS for your Ember-CLI App"
+                description: ""
+                link: https://www.npmjs.com/package/ember-cli-rework
+            -
+                title: "ember-cli-fastclick: Drop-in FastClick Support for Ember CLI Apps"
+                description: ""
+                link: https://www.npmjs.com/package/ember-cli-fastclick
+            -
+                title: "ember-cli-summernote: Addon for Summernote WYSIWYG Editor"
+                description: ""
+                link: https://www.npmjs.com/package/ember-cli-summernote
+            -
+                title: "ember-cli-jsmockito: Mocking Library for Unit Tsesting"
+                description: ""
+                link: https://www.npmjs.com/package/ember-cli-jsmockito
+            -
+                title: "Hyrrokkin - Convert Java POJOs into an Ember-Data Compatible Format"
+                description: ""
+                link: https://github.com/joachimhs/Hyrrokkin
+
+
+    -
+        heading: "Jobs"
+        advert: true
+        headlines:
+            -
+               title: "Full-stack JavaScript Software Developer"
+               description: "Join a world class team that’s committed to open source and building an awesome user experience. We’re looking for people who love writing great code and working closely with design, product, and other developers to make awesome features."
+               link: http://franq.workable.com/jobs/24642
+            # -
+            #    title: "Looking for an Ember Developer?"
+            #    description: "Deliver your job opening directly to developers with known interest in Ember.js development. Simply reply for more information about posting a job in Ember Weekly."
+            #    domain: emberweekly.com
+            #    link: mailto:info@emberweekly.com?Subject=Post%20a%20Job%20in%20Ember%20Weekly&Body=Title%3A%20e.g%20Senior%20Front-End%20Web%20Developer%0ABody%3A%20e.g.%20Want%20to%20work%20on%20large%20Ember.js%20projects%3F%20We%27re%20looking%20for%20a%20rockstar%20developer%20with%205%20years%20JavaScript%20experience%21%20%0Aurl%3A%20e.g.%20www.your-companies-website.com/careers%0A%0A%23%20weeks%3A%20How%20many%20weeks%20would%20you%20like%20the%20ad%20to%20be%20live%20for%3F%0ADate%3A%20When%20would%20you%20like%20the%20ad%20to%20go%20live%3F%0A%0ANotes%3A%20any%20other%20info%20you%27d%20like%20us%20to%20know...%3F%0ANote.%20There%20is%20a%20fee%20associated%20with%20advertising%20a%20job
+
+    -
+        heading: "Watch/Listen"
+        headlines:
+            -
+                title: "Interaction Design with Polymer Animations and Ember.js"
+                description: ""
+                link: https://www.youtube.com/watch?v=vnCkYuNgRZE
+            -
+                title: "Scalable Vector Ember - Matthew Beale at Embergarten Symposium"
+                description: ""
+                link: http://blog.unspace.ca/post/104861637792/matthew-beale-on-scalable-vector-ember
+            -
+                title: "Boston Ember December Meetup - Debugging Ember Apps, Testing with Mocha & Chai"
+                description: ""
+                link: https://www.youtube.com/watch?v=AJKYwwk6hls
+
+
+    -
+        heading: "Events"
+        headlines:
+            -
+                title: Dallas
+                description: "15th December, 7:00pm."
+                link: "http://www.meetup.com/Ember-Dallas/events/219029993/"
+            -
+                title: Southern California
+                description: "16th December, 6:30pm."
+                link: "http://www.meetup.com/Ember-SC/events/216855872/"
+            -
+                title: "Kirkland, Seattle"
+                description: "16th December, 6:30pm @ GoDaddy, Kirkland."
+                link: "http://www.meetup.com/Ember-js-Seattle-Meetup/events/218784728/"
+            -
+                title: Orlando
+                description: "16th December, 7:00pm @ IZEA, Orlando."
+                link: "http://www.meetup.com/Ember-js-Orlando/events/218872496/"
+            -
+                title: Cincinnati
+                description: "17th December, 6:00pm @ Gaslight, Cincinnati."
+                link: "http://www.meetup.com/EmberNati/events/219155682/"
+            -
+                title: Seattle
+                description: "17th December, 6:30pm @ Wayward Coffeehouse, Seattle."
+                link: "http://www.meetup.com/Ember-js-Seattle-Meetup/events/218467002/"
+            -
+                title: Amsterdam
+                description: "17th December, 6:30pm."
+                link: "http://www.meetup.com/Ember-js-Amsterdam/events/217543422/"
+            -
+                title: Vancouver
+                description: "23rd December, 6:30pm @ Code Core, Vancouver."
+                link: "http://www.meetup.com/Vancouver-Ember-js/events/218775405/"
+
+
+
+    # -
+    #     heading: "Finally"
+    #     headlines:
+    #         -
+    #             title: ""
+    #             description: ""
+    #             link:
