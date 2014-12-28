@@ -1,4 +1,4 @@
-# issue: 8
+# issue: 9
 # strapline: "Your weekly source of Ember News"
 # content:
 
@@ -10,13 +10,13 @@
     #             description: ""
     #             link:
 
-    # -
-    #     heading: "Featured"
-    #     headlines:
-    #         -
-    #             title: ""
-    #             description: ""
-    #             link:
+    ## -
+    ##     heading: "Featured"
+    ##     headlines:
+    ##         -
+    ##             title: ""
+    ##             description: ""
+    ##             link:
 
 
     # -
@@ -56,9 +56,20 @@
     #             link:
 
 
+    ## -
+    ##     heading: "From our sponsors"
+    ##     newsletterAd: true
+
     # -
     #     heading: "From our sponsors"
-    #     newsletterAd: true
+    #     image: "https://raw.githubusercontent.com/ember-weekly/ember-weekly/master/assets/sponsors/dockyard-logo.png"
+    #     advert: true
+    #     headlines:
+    #         -
+    #             title: "Work with the Ember.js experts at DockYard to build your next Ember.js project!"
+    #             description: "We offer full stack services: UX Design, Backend (Rails), and unmatched expertise in Ember.js consulting. We're happy taking complete ownership of projects or working alongside your existing team. [Contact us to learn more](http://dockyard.com/contact)!"
+    #             link: http://dockyard.com/contact
+    #             advert: true
 
     # -
     #     heading: "Code"
@@ -125,10 +136,10 @@
     #             link:
 
 
-    # -
-    #     heading: "Finally"
-    #     headlines:
-    #         -
-    #             title: ""
-    #             description: ""
-    #             link:
+    ## -
+    ##     heading: "Finally"
+    ##     headlines:
+    ##         -
+    ##             title: ""
+    ##             description: ""
+    ##             link:
