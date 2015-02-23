@@ -66,7 +66,7 @@
     #     advert: true
     #     headlines:
     #         -
-    #             title: "Work with the Ember.js experts at DockYard to build your next Ember.js project!"
+    #           title: "Work with the Ember.js Experts at DockYard to Build Your Next Ember.js Project!"
     #             description: "We offer full stack services: UX Design, Backend (Rails), and unmatched expertise in Ember.js consulting. We're happy taking complete ownership of projects or working alongside your existing team. [Contact us to learn more](http://dockyard.com/contact)!"
     #             link: http://dockyard.com/contact
     #             advert: true
@@ -101,9 +101,10 @@
     #     advert: true
     #     headlines:
     #         -
-    #            title: ""
+    #            title: "Ticketfly - Front-End Software Engineer - Build Apps Used by Millions of Musicians & Fans"
     #            description: ""
-    #            link:
+    #            link: "http://start.ticketfly.com/open-positions?jvi=oGLc0fwn,Job"
+
 
 
     # -
